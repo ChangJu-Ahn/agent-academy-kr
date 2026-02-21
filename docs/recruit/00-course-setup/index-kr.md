@@ -188,11 +188,11 @@ Step 1에서 사용한 동일한 Microsoft 365 테넌트로 Power Apps Developer
 
 6.  사이트 정보 입력 예시:
 
-      Field              Value
-      ------------------ ------------------------------
-      Site name          Contoso IT
-      Site description   Copilot Studio for Beginners
-      Site address       ContosoIT
+    | Field | Value |
+    | --- | --- |
+    | Site name | Contoso IT |
+    | Site description | Copilot Studio for Beginners |
+    | Site address | ContosoIT |
 
     ![Site information](images/0.4_06_SiteDetails.png)
 
