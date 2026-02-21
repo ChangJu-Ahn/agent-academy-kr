@@ -1,22 +1,8 @@
----
-next:
-  link: /recruit/06-create-agent-from-conversation
-  text: Create a custom agent using natural language with AI
-prev:
-  link: /recruit/04-creating-a-solution
-  text: Creating a Solution for Your Agent
----
-
 # 🧰 Mission 05: Using a Pre-Built Agent
 
 ## 🕵️‍♂️ CODENAME: `OPERATION SAFE TRAVELS`
 
 > **⏱️ Operation Time Window:** `~30 minutes`
-
-🎥 **Watch the Walkthrough**
-
-[![Pre-built agent video
-thumbnail](./images/video-thumbnail.jpg)](https://www.youtube.com/watch?v=NmXsx8WjWuM "Watch the walkthrough on YouTube")
 
 ## 🎯 Mission Brief
 
