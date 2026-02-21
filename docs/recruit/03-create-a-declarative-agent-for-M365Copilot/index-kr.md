@@ -430,142 +430,95 @@ Let's begin!
 
 이제 선언적 에이전트를 공개해 봅시다 😃
 
-### 3.4 Publish your declarative agent to Microsoft 365 Copilot and Microsoft Teams
+### 3.4 선언적 에이전트를 Microsoft 365 Copilot 및 Microsoft Teams에 게시
 
-1.  Select **Publish**.
+1. **게시**를 선택합니다.
 
     ![Publish agent](assets/3.4_01_PublishAgent.png)
 
-2.  A modal will appear which displays the Channels and publishing
-    details that can be updated.
+2. 업데이트 가능한 채널 및 게시 세부 정보가 표시되는 모달 창이 나타납니다.
 
-    -   Channels: The agent will be published to Microsoft 365 Copilot
-        and Microsoft Teams.
-    -   Agent app information: This is what will be displayed when the
-        user adds the agent to Microsoft 365 Copilot or in Microsoft
-        Teams. These are fields that can be updated as needed.
+    -  채널: 에이전트는 Microsoft 365 Copilot 및 Microsoft Teams에 게시됩니다.
+    -  에이전트 앱 정보: 사용자가 Microsoft 365 Copilot 또는 Microsoft Teams에 에이전트를 추가할 때 표시되는 정보입니다. 필요에 따라 이 필드를 업데이트할 수 있습니다.
 
-    ![Agent app
-    details](assets/3.4_02_ConfigurePublishingAgentDetails.png)
+    ![Agent app details](assets/3.4_02_ConfigurePublishingAgentDetails.png)
 
-3.  For example, you can update the **Short description**, **Long
-    description**, **Developer name** with your name.
+3. 예를 들어, **간략 설명**, **상세 설명**, **개발자 이름**을 본인의 이름으로 업데이트할 수 있습니다.
 
-    > \[!TIP\] If you don't see all the fields displayed on your
-    > browser, try zooming out e.g. 75%
+    > [!TIP]   
+    브라우저에 모든 필드가 표시되지 않으면 화면을 축소해 보세요(예: 75%).
 
-    Select **Publish**. Copilot Studio will then begin publishing the
-    agent.
+    **게시**를 선택하세요. 그러면 Copilot Studio에서 에이전트 게시를 시작합니다.
 
     ![Publishing agent](assets/3.4_03_UpdatePublishingAgentDetails.png)
 
-4.  When publishing is completed, we'll see the [Availability
-    options](https://learn.microsoft.com/microsoft-copilot-studio/microsoft-copilot-extend-copilot-extensions#set-availability-options/?WT.mc_id=power-172614-ebenitez)
-    of the agent.
+4. 게시가 완료되면 에이전트의 [가용성 옵션](https://learn.microsoft.com/microsoft-copilot-studio/microsoft-copilot-extend-copilot-extensions#set-availability-options/?WT.mc_id=power-172614-ebenitez)을 볼 수 있습니다.
 
-      -----------------------------------------------------------------------
-      Availability option                 Description
-      ----------------------------------- -----------------------------------
-      Share Link                          Copy the link to distribute it with
-                                          shared users to open the agent in
-                                          Microsoft 365 Copilot
-
-      Show to my teammates and shared     Lets you grant access to others to
-      users                               participate in authoring the agent,
-                                          or to security groups to grant them
-                                          access to use the agent in
-                                          Microsoft 365 Chat or Microsoft
-                                          Teams.
-
-      Show to everyone in my org          Submit to the tenant admin to add
-                                          to the organizational catalog for
-                                          all tenant users to add the agent.
-                                          The agent will show under Built by
-                                          your org in Microsoft 365 Copilot
-                                          and in Microsoft Teams
-
-      Download as a .zip                  Download as a zip file to upload as
-                                          a custom app in Microsoft Teams
-      -----------------------------------------------------------------------
+      | Availability option    | Description |
+      | ---------- | ---------- |
+      | Share Link | Copy the link to distribute it with shared users to open the agent in Microsoft 365 Copilot |
+      | Show to my teammates and shared users  | Lets you grant access to others to participate in authoring the agent, or to security groups to grant them access to use the agent in Microsoft 365 Chat or Microsoft Teams.  |
+      | Show to everyone in my org   | Submit to the tenant admin to add to the organizational catalog for all tenant users to add the agent. The agent will show under Built by your org in Microsoft 365 Copilot and in Microsoft Teams    |
+      | Download as a .zip    | Download as a zip file to upload as a custom app in Microsoft Teams    |
 
     ![Availability options](assets/3.4_04_AvailabilityOptions.png)
 
-5.  Let's take a look at sharing the agent. Select **Show to my
-    teammates and shared users**. A pane will appear where you can
-    search for users you want to to share the agent with either by
-    entering their name, an email or a security group. You can review
-    this list anytime to edit who has access to the agent.
+5. 이제 에이전트 공유에 대해 살펴보겠습니다. **내 팀원 및 공유 사용자에게 표시**를 선택합니다. 그러면 이름, 이메일 또는 보안 그룹을 입력하여 에이전트를 공유할 사용자를 검색할 수 있는 창이 나타납니다. 이 목록은 언제든지 검토하여 에이전트 액세스 권한을 가진 사용자를 수정할 수 있습니다.
 
     There's also a checkbox:
 
-    -   *Show in Built By Your Colleagues* - agent becomes available in
-        the Built with Power Platform section of the Teams app store.
+    - *동료가 개발한 앱에 표시* - 에이전트가 Teams 앱 스토어의 Power Platform으로 개발됨 섹션에 표시됩니다.
 
-    For more details, refer to [Connect and configure an agent for Teams
-    and Microsoft
-    365](https://learn.microsoft.com/microsoft-copilot-studio/publication-add-bot-to-microsoft-teams/?WT.mc_id=power-172614-ebenitez).
+    자세한 내용은 [Teams 및 Microsoft 365용 에이전트 연결 및 구성](https://learn.microsoft.com/microsoft-copilot-studio/publication-add-bot-to-microsoft-teams/?WT.mc_id=power-172614-ebenitez)을 참조하세요.
 
-    Select **Cancel** or the **X** icon to exit from the pane.
+    창을 닫으려면 **취소** 또는 **X** 아이콘을 선택하세요.
 
     ![Share agent](assets/3.4_05_ShareAgent.png)
 
-6.  Select **Copy** and in a new browser tab, paste the link.
+6. **복사**를 선택하고 새 브라우저 탭에 링크를 붙여넣으세요.
 
     ![Copy link](assets/3.4_06_CopyLink.png)
 
-7.  Microsoft 365 Copilot will load and a modal will appear with the
-    agent app details. Notice how the developer name, the short
-    description and long description is displayed. These are from the
-    publishing details updated in an earlier step.
+7. Microsoft 365 Copilot이 로드되고 에이전트 앱 세부 정보가 포함된 모달 창이 나타납니다. 개발자 이름, 간단한 설명 및 자세한 설명이 표시되는 것을 확인하세요. 이러한 정보는 이전 단계에서 업데이트된 게시 세부 정보에서 가져온 것입니다.
 
     Select **Add**.
 
     ![Availability options](assets/3.4_07_AgentAppDetails.png)
 
-8.  Our declarative agent will load next. We can see the suggested
-    prompts to select from which quickly enables users to seek immediate
-    help.
+8. 다음으로 선언적 에이전트가 로드됩니다. 사용자가 즉시 도움을 요청할 수 있도록 제안된 프롬프트가 표시됩니다.
 
-    Select one of the suggested prompts which will automatically
-    prepopulate the message Copilot field. Submit the question to
-    Copilot.
+    제시된 질문 중 하나를 선택하면 Copilot 메시지 필드가 자동으로 채워집니다. 질문을 Copilot에 제출하세요.
 
-    ![Select one of suggested
-    prompts](assets/3.4_08_SelectStarterPrompt.png)
+    ![Select one of suggested prompts](assets/3.4_08_SelectStarterPrompt.png)
 
-9.  Select **Always allow** to give your declarative agent permission to
-    invoke the IT Expert prompt.
+9. 선언적 에이전트가 IT 전문가 프롬프트를 호출할 수 있도록 하려면 **항상 허용**을 선택하십시오.
 
     ![Select always allow](assets/3.4_09_AlwaysAllow.png)
 
-10. The agent will then invoke our **IT Expert** prompt and we'll see
-    the model response returned as a message in our declarative agent.
+10. 그러면 에이전트가 **IT 전문가** 프롬프트를 호출하고, 선언적 에이전트에서 모델 응답이 메시지로 반환되는 것을 확인할 수 있습니다.
 
     ![Response](assets/3.4_10_01_Response.png)
 
-    Scroll down to see the full details of the response.
+    답변의 전체 내용을 보려면 아래로 스크롤하십시오.
 
     ![Response](assets/3.4_10_02_Response.png)
 
-11. But *how do we know* the declarative agent invoked the prompt? 👀
-    Well, here's a tip!
+11. 그런데 *우리는 어떻게 선언적 에이전트가 프롬프트를 호출했는지* 알 수 있을까요? 👀 자, 힌트를 드릴게요!
 
-    > \[!TIP\] You can test and debug agents in Microsoft 365 Copilot by
-    > enabling [developer
-    > mode](https://learn.microsoft.com/microsoft-365-copilot/extensibility/debugging-copilot-agent#use-developer-mode-in-copilot-chat/?WT.mc_id=power-172614-ebenitez).
+    > [!TIP]   
+    > You can test and debug agents in Microsoft 365 Copilot by enabling [developer mode](https://learn.microsoft.com/microsoft-365-copilot/extensibility/debugging-copilot-agent#use-developer-mode-in-copilot-chat/?WT.mc_id=power-172614-ebenitez).
 
-    Enter the following in the message Copilot field and submit.
+    메시지 'Copilot' 필드에 다음 내용을 입력하고 제출하세요.
 
     ``` text
     -developer on
     ```
 
-    A confirmation message will appear to let you know developer mode is
-    now enabled.
+    개발자 모드가 활성화되었다는 확인 메시지가 나타납니다.
 
     ![Developer mode enabled](assets/3.4_11_DeveloperModeEnabled.png)
 
-12. Submit the following question to invoke the prompt.
+12. 다음 질문을 제출하여 프롬프트를 표시하십시오.
 
     ``` text
     노트북이 예기치 않게 재시작되었습니다. 조언이 있나요?
@@ -573,83 +526,58 @@ Let's begin!
 
     ![Enter question](assets/3.4_12_EnterQuestion.png)
 
-13. We'll see a model response from our **IT Expert** prompt again
-    returned as a message. Scroll down to the bottom of the message and
-    a card with debug information is displayed.
+13. 그러면 **IT 전문가**의 요청에 대한 모범 응답이 메시지로 다시 표시됩니다. 메시지 하단으로 스크롤하면 디버그 정보가 포함된 카드가 표시됩니다.
 
     Expand **Agent Debug Info** by selecting it.
 
     ![Agent debug info](assets/3.4_13_AgentDebuggingInfo.png)
 
-14. Here you'll find information on the agent metadata that occurred at
-    runtime.
+14. 여기에서는 런타임 시 발생한 에이전트 메타데이터에 대한 정보를 찾을 수 있습니다.
 
-    In our use case, we'll be focusing on the *Actions* section:
+    이번 사용 사례에서는 *작업* 섹션에 초점을 맞추겠습니다.
 
-    -   **Matched actions** highlight the current status of functions
-        found during the app's search.
-    -   **Selected actions** highlight the current status of functions
-        chosen to run based on the app's decision-making process.
+    - **일치하는 작업**은 앱 검색 중에 발견된 기능의 현재 상태를 보여줍니다.
+    - **선택된 작업**은 앱의 의사 결정 과정을 기반으로 실행되도록 선택된 기능의 현재 상태를 보여줍니다.
 
-    So here we can see the agent orchestrator chose to invoke the IT
-    Expert prompt as per the instructions of our declarative agent.
+    여기서 우리는 에이전트 오케스트레이터가 선언적 에이전트의 지시에 따라 IT 전문가 프롬프트를 호출하도록 선택한 것을 볼 수 있습니다.
 
-    ![Agent debug info
-    expanded](assets/3.4_14_01_ReviewAgentDebugInfo.png)
+    ![Agent debug info expanded](assets/3.4_14_01_ReviewAgentDebugInfo.png)
 
-    This is further outlined in the *Executed Actions* section which
-    also tells us that it successfully invoked the prompt and used our
-    question as the value for our `problem input` parameter.
+    이는 *실행된 작업* 섹션에 자세히 설명되어 있으며, 해당 섹션에서는 프롬프트가 성공적으로 호출되었고 우리의 질문이 `문제 입력` 매개변수의 값으로 사용되었음을 알려줍니다.
 
-    ![Agent debug info
-    expanded](assets/3.4_14_02_ReviewAgentDebugInfo.png)
+    ![Agent debug info expanded](assets/3.4_14_02_ReviewAgentDebugInfo.png)
 
-    ![Review agent debug
-    info](assets/3.4_14_03_ReviewAgentDebugInfo.png)
+    ![Review agent debug info](assets/3.4_14_03_ReviewAgentDebugInfo.png)
 
-15. To turn off developer mode, enter the following in the message
-    Copilot field and submit.
+15. 개발자 모드를 끄려면 메시지 Copilot 필드에 다음을 입력하고 제출하십시오.
 
     ``` text
     -developer off
     ```
 
-    A confirmation message will appear to let you know developer mode is
-    disabled. Cool, now you know how to verify whether your declarative
-    agent in Microsoft 365 Copilot invoked your prompt 🌞
+    개발자 모드가 비활성화되었다는 확인 메시지가 나타납니다. 좋습니다! 이제 Microsoft 365 Copilot의 선언적 에이전트가 프롬프트를 호출했는지 확인하는 방법을 알게 되셨습니다. 🌞
 
     ![Developer mode disabled](assets/3.4_15_DeveloperModeDisabled.png)
 
-16. We'll now test our agent in Microsoft Teams. Navigate to **Apps**
-    using the left hand side menu and select **Teams** under the *Apps*
-    section.
+16. 이제 Microsoft Teams에서 에이전트를 테스트해 보겠습니다. 왼쪽 메뉴에서 **앱**으로 이동한 다음 **앱** 섹션에서 **Teams**를 선택합니다.
 
     ![Select Teams in Apps](assets/3.4_16_NavigateToApps.png)
 
-17. Microsoft Teams will then load in a new browser tab and we'll then
-    be presented with the terms of use for Microsoft 365 Copilot, select
-    **Agree**.
+17. 그러면 Microsoft Teams가 새 브라우저 탭에서 열리고 Microsoft 365 Copilot 이용 약관이 표시됩니다. **동의**를 선택하세요.
 
     ![Select Agree](assets/3.4_17_Agree.png)
 
-18. Microsoft 365 Copilot will then load by default, with the right hand
-    side pane listing all of your available agents, including the
-    **Contoso Tech Support Pro** declarative agent.
+18. 그러면 Microsoft 365 Copilot이 기본적으로 로드되고 오른쪽 창에 **Contoso Tech Support Pro** 선언적 에이전트를 포함하여 사용 가능한 모든 에이전트 목록이 표시됩니다.
 
-    ![Microsoft 365 Copilot in
-    Teams](assets/3.4_18_CopilotAgentsInTeams.png)
+    ![Microsoft 365 Copilot in Teams](assets/3.4_18_CopilotAgentsInTeams.png)
 
-19. Select **ellipsis icon (...)** on the left hand side menu. Either
-    search for **Contoso Tech Support Pro** in the search field or if
-    you see the agent, select it.
+19. 왼쪽 메뉴에서 **줄임표 아이콘(...)**을 선택합니다. 검색 필드에 **Contoso Tech Support Pro**를 입력하거나, 상담원이 표시되면 선택합니다.
 
-    You can also right-click on your mouse to **Pin** the agent for
-    quick access on the left hand side menu in Microsoft Teams.
+    Microsoft Teams에서 마우스 오른쪽 버튼을 클릭하여 에이전트를 왼쪽 메뉴에 **고정**하면 빠르게 액세스할 수 있습니다.
 
     ![Select and pin agent](assets/3.4_19_SelectAndPinAgentFromApps.png)
 
-20. We'll then see our agent load. 1. Let's next test our agent. Enter
-    the following prompt and submit.
+20. 이제 에이전트가 로드되는 것을 확인해 보겠습니다. 1. 다음으로 에이전트를 테스트해 보겠습니다. 다음 프롬프트를 입력하고 제출하세요.
 
     ``` text
     블루스크린이 발생하고 있습니다. 도와주실 수 있나요?
@@ -657,42 +585,30 @@ Let's begin!
 
     ![Pin agent](assets/3.4_20_EnterQuestion.png)
 
-21. A model response from our prompt will then be displayed.
+21. 그러면 저희가 제시한 프롬프트에 대한 모범 응답이 표시됩니다.
 
     ![Response in Teams](./assets/3.4_21_AgentInTeamsResponse.png)
 
-In a few minutes, you've learnt how to publish your declarative agent
-and test it in Microsoft 365 Copilot and in Microsoft Teams 😊
+몇 분 만에 선언적 에이전트를 게시하고 Microsoft 365 Copilot 및 Microsoft Teams에서 테스트하는 방법을 배우셨습니다 😊
 
 ## ✅ Mission Complete
 
-축하합니다! 👏🏻 Copilot Studio에서 Prompt를 추가하고, 해당 Prompt를
-사용하도록 지침을 구성한 뒤, Microsoft 365 Copilot과 Microsoft Teams에
-게시/테스트하는 방법을 배웠습니다.
+축하합니다! 👏🏻 Copilot Studio에서 Prompt를 추가하고, 해당 Prompt를 사용하도록 지침을 구성한 뒤, Microsoft 365 Copilot과 Microsoft Teams에 게시/테스트하는 방법을 배웠습니다.
 
-여러분의 에이전트는 이제 실제 업무에서 직원들을 지원할 준비가
-되었습니다.
+여러분의 에이전트는 이제 실제 업무에서 직원들을 지원할 준비가 되었습니다.
 
-이것으로 **Lab 03 - Build a declarative agent in Microsoft Copilot
-Studio for Microsoft 365 Copilot** 를 마칩니다. 아래 링크를 눌러 다음
-레슨으로 이동하세요.
+이것으로 **Lab 03 - Build a declarative agent in Microsoft Copilot Studio for Microsoft 365 Copilot** 를 마칩니다. 아래 링크를 눌러 다음 레슨으로 이동하세요.
 
-⏭️ [Move to **Creating a new Solution**
-lesson](../04-creating-a-solution/index.md)
+⏭️ [Move to **Creating a new Solution** lesson](../04-creating-a-solution/index.md)
 
-Until next time, stay sharp. The future of enterprise work runs through
-agents---and now you know how to build one.
+다음 시간까지, 집중력을 유지하세요. 미래의 기업 업무는 에이전트를 통해 이루어질 것이며, 이제 여러분은 에이전트를 구축하는 방법을 알게 되었습니다.
 
 ## 📚 Tactical Resources
 
-📖 [Build declarative agent in Microsoft Copilot Studio for Microsoft
-365
-Copilot](https://learn.microsoft.com/microsoft-copilot-studio/microsoft-copilot-extend-copilot-extensions?context=%2Fmicrosoft-365-copilot%2Fextensibility%2Fcontext/?WT.mc_id=power-172614-ebenitez)
+📖 [Build declarative agent in Microsoft Copilot Studio for Microsoft 365 Copilot](https://learn.microsoft.com/microsoft-copilot-studio/microsoft-copilot-extend-copilot-extensions?context=%2Fmicrosoft-365-copilot%2Fextensibility%2Fcontext/?WT.mc_id=power-172614-ebenitez)
 
-📖 [Add
-prompts](https://learn.microsoft.com/ai-builder/create-a-custom-prompt?context=%2Fmicrosoft-365-copilot%2Fextensibility%2Fcontext/?WT.mc_id=power-172614-ebenitez)
+📖 [Add prompts](https://learn.microsoft.com/ai-builder/create-a-custom-prompt?context=%2Fmicrosoft-365-copilot%2Fextensibility%2Fcontext/?WT.mc_id=power-172614-ebenitez)
 
-📖[Share agents with other
-users](https://learn.microsoft.com/microsoft-copilot-studio/admin-share-bots/?WT.mc_id=power-172614-ebenitez)
+📖[Share agents with other users](https://learn.microsoft.com/microsoft-copilot-studio/admin-share-bots/?WT.mc_id=power-172614-ebenitez)
 
 📺 [Build prompts for your agent](https://aka.ms/ai-in-action/copilot-studio/ep3)
