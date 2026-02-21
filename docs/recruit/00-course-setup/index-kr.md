@@ -18,10 +18,10 @@ Copilot Studio Agent로서의 트레이닝 첫 번째 미션에 오신 것을
 
 이번 미션에는 다음이 포함됩니다:
 
-1.  Microsoft 365 계정 생성\
-2.  Microsoft Copilot Studio 접근 권한 획득\
+1.  Microsoft 365 계정 생성
+2.  Microsoft Copilot Studio 접근 권한 획득
 3.  (선택 사항) 프로덕션 배포를 위한 Microsoft 365 Copilot 라이선스 확보
-4.  Copilot Studio에서 사용할 개발자 환경 생성\
+4.  Copilot Studio에서 사용할 개발자 환경 생성
 5.  이후 미션에서 데이터 소스로 사용할 SharePoint 사이트 생성
 
 > \[!IMPORTANT\] **이미 Microsoft 365, Power Platform, Copilot Studio에
