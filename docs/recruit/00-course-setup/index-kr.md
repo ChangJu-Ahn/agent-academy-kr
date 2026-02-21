@@ -303,8 +303,3 @@ Mission 07에서 **Devices** 리스트를 사용합니다.
 
 이제 [Lesson 01](../01-introduction-to-agents/index.md) 에서 **Recruit
 레벨 에이전트 트레이닝**을 시작할 준비가 완료되었습니다.
-
-```{=html}
-<!-- markdownlint-disable-next-line MD033 -->
-```
-`<img src="https://m365-visitor-stats.azurewebsites.net/agent-academy/recruit/00-course-setup" alt="Analytics" />`{=html}
