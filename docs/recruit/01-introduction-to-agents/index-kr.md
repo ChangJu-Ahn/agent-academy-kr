@@ -34,8 +34,7 @@
 4.  **Prompting:** 사용자는 프롬프트(질문이나 요청 텍스트)를 보내 LLM과 상호작용합니다. 프롬프트가 명확할수록 더 정확하고 관련성 높은 응답을 얻을 수 있습니다.
 
 > [!TIP]
-> LLM은 흔히 "초고성능 자동완성"에 비유됩니다. 인간처럼 의미를 완전히 이해하는 것은 아니지만, 다음에 올 가장 적절한 단어나
-> 문장을 매우 잘 예측합니다.
+> LLM은 흔히 "초고성능 자동완성"에 비유됩니다. 인간처럼 의미를 완전히 이해하는 것은 아니지만, 다음에 올 가장 적절한 단어나 문장을 매우 잘 예측합니다.
 
 ## Retrieval-Augmented Generation (RAG)
 
@@ -59,7 +58,7 @@ Copilot Studio에서 **에이전트**라는 용어는 여러 유형의 AI 도우
 -   외부 도구 또는 API와 연동할 수 있습니다 (예: Power Automate 호출, 일정 초대 전송, Dataverse 데이터 조작).
 -   고객 지원, FAQ, 가이드형 상호작용, 간단한 Q&A에 적합합니다.
     -   예시:
-        -   HR 정책 질문에 답하는 Microsoft Teams 에이전트\
+        -   HR 정책 질문에 답하는 Microsoft Teams 에이전트
         -   제품 관련 질문에 답하는 웹사이트 에이전트
 
 **Autonomous Agents:**
@@ -67,33 +66,25 @@ Copilot Studio에서 **에이전트**라는 용어는 여러 유형의 AI 도우
 -   단순한 대화를 넘어 사용자를 대신해 **행동을 수행**합니다.
 -   "계획 → 실행 → 관찰 → 재계획"과 같은 LLM 추론 루프를 활용합니다.
 -   외부 도구 또는 API와 연동할 수 있습니다.
--   지속적인 사용자 입력 없이도 동작하며, 트리거되면 여러 단계를
-    자율적으로 수행합니다.
+-   지속적인 사용자 입력 없이도 동작하며, 트리거되면 여러 단계를 자율적으로 수행합니다.
     -   예시:
-        -   여행 요청이 입력되면 일정 생성, 항공권 예약, 이메일 발송까지
-            수행하는 에이전트\
-        -   Teams 회의에 참여해 실시간 전사 후 OneNote에 요약을 작성하는
-            회의 요약 에이전트
+        -   여행 요청이 입력되면 일정 생성, 항공권 예약, 이메일 발송까지 수행하는 에이전트
+        -   Teams 회의에 참여해 실시간 전사 후 OneNote에 요약을 작성하는 회의 요약 에이전트
 
-> \[!INFO\] Key Difference 대화형 에이전트는 사용자 입력이 있어야
-> 동작합니다. 자율형 에이전트는 외부 트리거를 기반으로 사람의 개입
-> 없이도 작업을 수행할 수 있습니다.
+> [!IMPORTANT]    
+> Key Difference
+> 대화형 에이전트는 사용자 입력이 있어야 동작합니다. 자율형 에이전트는 외부 트리거를 기반으로 사람의 개입 없이도 작업을 수행할 수 있습니다.
 
 ## Agents in Copilot Studio
 
-**Copilot Studio**는 대화형 및 자율형 시나리오를 하나의 프레임워크로
-통합합니다. 주요 기능:
+**Copilot Studio**는 대화형 및 자율형 시나리오를 하나의 프레임워크로 통합합니다. 주요 기능:
 
-1.  **Visual Agent Designer:** 드래그 앤 드롭 방식으로 에이전트를 설계,
-    테스트, 배포할 수 있는 캔버스.
-2.  **Model (LLM) Selection:** OpenAI, Anthropic, Custom 모델 등 다양한
-    AI 모델 선택 가능.\
-3.  **Knowledge:** SharePoint, OneDrive, Dataverse 등 기본 연동을 통해
-    RAG를 쉽게 구성.\
+1.  **Visual Agent Designer:** 드래그 앤 드롭 방식으로 에이전트를 설계, 테스트, 배포할 수 있는 캔버스.
+2.  **Model (LLM) Selection:** OpenAI, Anthropic, Custom 모델 등 다양한 AI 모델 선택 가능.
+3.  **Knowledge:** SharePoint, OneDrive, Dataverse 등 기본 연동을 통해 RAG를 쉽게 구성.
 4.  **Tools:** 외부 도구 또는 API와 연결하여 행동 수행 가능.
 5.  **Multi-Modal Support:** 파일 업로드 및 음성 대화를 지원.
-6.  **Publishing & Distribution:** Microsoft 365 Copilot, 웹사이트
-    임베드 등 다양한 채널로 배포 가능.
+6.  **Publishing & Distribution:** Microsoft 365 Copilot, 웹사이트 임베드 등 다양한 채널로 배포 가능.
 
 ## 🎉 Mission Complete
 
@@ -102,23 +93,16 @@ Copilot Studio에서 **에이전트**라는 용어는 여러 유형의 AI 도우
 1.  **LLMs = 에이전트의 두뇌**
     -   언어 이해와 생성 담당
 2.  **RAG = 실시간 지식 통합**
-    -   정적인 LLM과 변화하는 데이터 사이의 간극을 연결\
+    -   정적인 LLM과 변화하는 데이터 사이의 간극을 연결
     -   관련 문서를 프롬프트에 주입
 3.  **Conversational vs. Autonomous**
     -   **Conversational:** 대화 중심
     -   **Autonomous:** 외부 트리거 기반 자율 실행
 
-다음 단계에서는 [Copilot Studio
-기초](../02-copilot-studio-fundamentals/index.md)를 살펴봅니다!
+다음 단계에서는 [Copilot Studio 기초](../02-copilot-studio-fundamentals/index.md)를 살펴봅니다!
 
 계속 집중하세요, 이제 AI 여정이 시작됩니다.
 
 ## 📚 Tactical Resources
 
-🔗 [Copilot Studio Documentation
-Home](https://learn.microsoft.com/microsoft-copilot-studio/)
-
-```{=html}
-<!-- markdownlint-disable-next-line MD033 -->
-```
-`<img src="https://m365-visitor-stats.azurewebsites.net/agent-academy/recruit/01-introduction-to-agents" alt="Analytics" />`{=html}
+🔗 [Copilot Studio Documentation Home](https://learn.microsoft.com/microsoft-copilot-studio/)
