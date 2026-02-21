@@ -73,30 +73,13 @@ Microsoft Copilot Studio는 Agent Builder의 제한을 넘어서는, 선언형
 다음 표는 Microsoft 365 Copilot의 Agent Builder와 Copilot Studio에서
 선언형 에이전트를 만들 때의 차이를 요약합니다.
 
-  --------------------------------------------------------------------------
-  Feature         Agent Builder in Microsoft  Extend Microsoft 365 Copilot
-                  365 Copilot                 in Copilot Studio
-  --------------- --------------------------- ------------------------------
-  **Knowledge**   Web, SharePoint, Microsoft  Web search (via Bing),
-                  Teams chats, Outlook        SharePoint, Dataverse,
-                  emails, Copilot connectors  Dynamics 365, Copilot
-                                              connectors
-
-  **Tools**       Code interpreter, image     1400+ Power Platform
-                  generator                   connectors, custom connectors,
-                                              prompt, computer use, REST
-                                              API, Model Context Protocol
-
-  **Starter       Configure prompts for users Configure prompts for users to
-  prompts**       to get started quickly      get started quickly
-
-  **Channel**     Agent only published to     Agent published to Microsoft
-                  Microsoft 365 Copilot       365 Copilot and Microsoft
-                                              Teams
-
-  **Sharing       Users are only viewers      Users can be editors or
-  permissions**                               viewers
-  --------------------------------------------------------------------------
+| Feature                   | Agent Builder in Microsoft 365 Copilot                          | Extend Microsoft 365 Copilot in Copilot Studio                                |
+|---------------------------|-------------------------------------------------------|------------------------------------------------------------|
+| **Knowledge**       | Web, SharePoint, Microsoft Teams chats, Outlook emails, Copilot connectors     | Web search (via Bing), SharePoint, Dataverse, Dynamics 365, Copilot connectors  |
+| **Tools**       | Code interpreter, image generator     | 1400+ Power Platform connectors, custom connectors, prompt, computer use, REST API, Model Context Protocol   |
+| **Starter prompts**         | Configure prompts for users to get started quickly   | Configure prompts for users to get started quickly  |
+| **Channel**           | Agent only published to Microsoft 365 Copilot     | Agent published to Microsoft 365 Copilot and Microsoft Teams      |
+| **Sharing permissions**         | Users are only viewers    | Users can be editors or viewers   |
 
 Copilot Studio에서 구축한 선언형 에이전트는 이 외에도 더 많은 기능을
 제공합니다. 다음에서 계속 살펴봅니다.
