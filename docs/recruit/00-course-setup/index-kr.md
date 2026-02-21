@@ -1,12 +1,3 @@
----
-next:
-  link: /recruit/01-introduction-to-agents
-  text: Introduction to Agents
-prev:
-  link: /recruit
-  text: Recruit overview
----
-
 # 🚨 Mission 00: Course Setup
 
 ## 🕵️‍♂️ CODENAME: `OPERATION DEPLOYMENT READY`
