@@ -1,22 +1,8 @@
----
-next:
-  link: /recruit/02-copilot-studio-fundamentals
-  text: Copilot Studio Fundamentals
-prev:
-  link: /recruit/00-course-setup
-  text: Course Setup
----
-
 # 🚨 Mission 01: 에이전트 소개
 
 ## 🕵️‍♂️ CODENAME: `OPERATION AI AGENT DECODE`
 
 > **⏱️ Operation Time Window:** `~30분 – 개념 이해 중심, 실습 없음`
-
-🎥 **Watch the Walkthrough**
-
-[![Introduction to Agents video
-thumbnail](./images/video-thumbnail.jpg)](https://www.youtube.com/watch?v=BhPz_zicUnM "Watch the walkthrough on YouTube")
 
 ## 🎯 Mission Brief
 
