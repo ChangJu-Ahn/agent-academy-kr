@@ -284,17 +284,13 @@ Mission 07에서 **Devices** 리스트를 사용합니다.
 -   Order \#
 -   Image - 아래 링크 사용
 
-  -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-  Device                                          URL
-  ----------------------------------------------- -----------------------------------------------------------------------------------------------------------------------------------------------------
-  Surface Laptop 13                               <https://raw.githubusercontent.com/microsoft/agent-academy/refs/heads/main/docs/recruit/00-course-setup/images/device-images/Surface-Laptop-13.png>
+  --------------------------------------------------------------------------------------------------------------------------------------------------------------| Device | URL |
+| ------ | --- |
+| Surface Laptop 13 | [https://raw.githubusercontent.com/microsoft/agent-academy/refs/heads/main/docs/recruit/00-course-setup/images/device-images/Surface-Laptop-13.png](https://raw.githubusercontent.com/microsoft/agent-academy/refs/heads/main/docs/recruit/00-course-setup/images/device-images/Surface-Laptop-13.png) |
+| Surface Laptop 15 | [https://raw.githubusercontent.com/microsoft/agent-academy/refs/heads/main/docs/recruit/00-course-setup/images/device-images/Surface-Laptop-15.png](https://raw.githubusercontent.com/microsoft/agent-academy/refs/heads/main/docs/recruit/00-course-setup/images/device-images/Surface-Laptop-15.png) |
+| Surface Pro | [https://raw.githubusercontent.com/microsoft/agent-academy/refs/heads/main/docs/recruit/00-course-setup/images/device-images/Surface-Pro-12.png](https://raw.githubusercontent.com/microsoft/agent-academy/refs/heads/main/docs/recruit/00-course-setup/images/device-images/Surface-Pro-12.png) |
+| Surface Studio | [https://raw.githubusercontent.com/microsoft/agent-academy/refs/heads/main/docs/recruit/00-course-setup/images/device-images/Surface-Studio.png](https://raw.githubusercontent.com/microsoft/agent-academy/refs/heads/main/docs/recruit/00-course-setup/images/device-images/Surface-Studio.png) |
 
-  Surface Laptop 15                               <https://raw.githubusercontent.com/microsoft/agent-academy/refs/heads/main/docs/recruit/00-course-setup/images/device-images/Surface-Laptop-15.png>
-
-  Surface Pro                                     <https://raw.githubusercontent.com/microsoft/agent-academy/refs/heads/main/docs/recruit/00-course-setup/images/device-images/Surface-Pro-12.png>
-
-  Surface Studio                                  <https://raw.githubusercontent.com/microsoft/agent-academy/refs/heads/main/docs/recruit/00-course-setup/images/device-images/Surface-Studio.png>
-  -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## ✅ Mission Complete
 
