@@ -1,7 +1,13 @@
+---
+next:
+  text: 'Course Setup'
+  link: '/recruit/00-course-setup'
+lastUpdated: false
+---
+
 # Welcome Recruit
 
-![Copilot Studio Agent Academy
-Recruit](../images/mcs-agent-academy-recruit-banner.png)
+![Copilot Studio Agent Academy Recruit](../images/mcs-agent-academy-recruit-banner.png)
 
 **리크루트에 오신 것을 환영합니다.**   
 이 미션을 받아들이신다면, 당신의 목표는 **Microsoft Copilot Studio**를 활용하여 에이전트를 구축하는 기술을 마스터하는 것입니다.
@@ -54,7 +60,12 @@ Agent Academy를 완료하면 다음을 할 수 있습니다:
 | `09` | 🔁 [Automate with Agent Flows](./09-add-an-agent-flow/index.md) | 어댑티브 카드 입력을 사용하여 백엔드 흐름을 트리거하세요. |
 | `10` | 🧭 [Add Event Triggers](./10-add-event-triggers/index.md) | 이벤트 기반 로직을 사용하여 에이전트가 자율적으로 작동하도록 설정하세요.|
 | `11` | 📢 [Publish Your Agent](./11-publish-your-agent/index.md) | Microsoft Teams 및 Microsoft 365 Copilot에 에이전트를 배포하세요. |
+| `12` | 🪪 [Understanding Licensing](./12-understanding-licensing/index.md) | Copilot Studio의 라이선스 및 과금 방식을 학습합니다. |
+| `13` | 🚨 [Securing Your Recruit Badge](./course-completion-badges-recruit/index.md) | 배지를 획득하고 성과를 기록하세요! |
 
-> [!NOTE]   
-> ✅ 이 커리큘럼을 완료하면 **Recruit** 배지를 획득합니다.
+> [!NOTE]
+> ✅ 이 커리큘럼을 완료하면 **Recruit** 배지를 획득합니다.  
 > 🔓 **Operative** 및 **Commander**는 이후 단계에서 공개됩니다.
+
+<!-- markdownlint-disable-next-line MD033 -->
+<img src="https://m365-visitor-stats.azurewebsites.net/agent-academy/recruit" alt="Analytics" />

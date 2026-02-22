@@ -1,8 +1,21 @@
+---
+prev:
+  text: 'Creating a Solution for Your Agent'
+  link: '/recruit/04-creating-a-solution'
+next:
+  text: 'Create a custom agent using natural language with AI'
+  link: '/recruit/06-create-agent-from-conversation'
+---
+
 # 🧰 Mission 05: Using a Pre-Built Agent
 
 ## 🕵️‍♂️ CODENAME: `OPERATION SAFE TRAVELS`
 
 > **⏱️ Operation Time Window:** `~30 minutes`
+
+🎥 **워크스루 영상 보기**
+
+[![Pre-built agent video thumbnail](./images/video-thumbnail.jpg)](https://www.youtube.com/watch?v=NmXsx8WjWuM "Watch the walkthrough on YouTube")
 
 ## 🎯 Mission Brief
 
@@ -121,8 +134,11 @@ Pre-built agents는 Microsoft에서 제공하는 turnkey AI agents로 다음을 
 
 다음을 완료했습니다:
 
--   Microsoft pre-built agent 배포\
+-   Microsoft pre-built agent 배포
 -   agent 커스터마이즈
 -   Safe Travels agent template 테스트 및 게시
 
 ⏭️ [Move to **Creating a custom agent from scratch** lesson](../06-create-agent-from-conversation/index.md).
+
+<!-- markdownlint-disable-next-line MD033 -->
+<img src="https://m365-visitor-stats.azurewebsites.net/agent-academy/recruit/05-using-prebuilt-agents" alt="Analytics" />

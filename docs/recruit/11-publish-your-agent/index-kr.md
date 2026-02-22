@@ -55,10 +55,8 @@ Copilot Studio에서 에이전트를 작업할 때마다 지식이나 도구를 
 에이전트에는 여러 채널이 추가되어 있을 수 있으며, 게시를 하면 추가된
 모든 채널에서 업데이트가 적용됩니다.
 
-!!! important ❗ 최근 Copilot Studio Trial 환경에는 에이전트 게시를
-제한하는 변경 사항이 적용되었습니다. Trial 환경에서는 이 모듈을 완료하여
-에이전트를 게시할 수 없습니다. 에이전트를 게시하려면 유료 환경이
-필요합니다. 단, 배지를 받기 위해 게시가 필수는 아닙니다.
+!!! important
+    ❗ 최근 Copilot Studio Trial 환경에는 에이전트 게시를 제한하는 변경 사항이 적용되었습니다. Trial 환경에서는 이 모듈을 완료하여 에이전트를 게시할 수 없습니다. 에이전트를 게시하려면 유료 환경이 필요합니다. 단, 배지를 받기 위해 게시가 필수는 아닙니다.
 
 ## ⚙️ 채널 구성하기
 
@@ -107,38 +105,32 @@ Copilot Studio에서 에이전트를 작업할 때마다 지식이나 도구를 
 때는 채널별 차이를 반드시 고려해야 합니다. 다양한 채널에서 테스트하여
 의도한 대로 동작하는지 확인하는 것이 좋은 전략입니다.
 
-  ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-  Experience        Website        Teams and Microsoft 365 Copilot                                                                                           Facebook                                                                                    Dynamics Omnichannel for Customer Service
-  ----------------- -------------- ------------------------------------------------------------------------------------------------------------------------- ------------------------------------------------------------------------------------------- -----------------------------------------------------------------------------------------------------------------------------------
-  Customer          Adaptive card  Text-only                                                                                                                 Text-only                                                                                   Text-only
-  satisfaction                                                                                                                                                                                                                                           
-  survey                                                                                                                                                                                                                                                 
+| Experience | Website | Teams and Microsoft 365 Copilot | Facebook | Dynamics Omnichannel for Customer Service |
+| :-- | :-- | :-- | :-- | :-- |
+| Customer satisfaction survey | Adaptive card | Text-only | Text-only | Text-only |
+| Multiple-choice options | Supported | [Supported up to six (as hero card)][1] | [Supported up to 13][3] | [Partially Supported][5] |
+| Markdown | Supported | [Partially Supported][2] | [Partially supported][4] | [Partially Supported][6] |
+| Welcome message | Supported | Supported | Not supported | Supported for [Chat][7]. Not supported for other channels. |
+| Did-You-Mean | Supported | Supported | Supported | Supported for [Microsoft Teams][8], [Chat][7], Facebook, and text-only channels (short message service (SMS) via [TeleSign][9] and [Twilio][10], [WhatsApp][11], [WeChat][12], and [Twitter][13]). Suggested actions are presented as a text-only list; users must retype an option to respond. |
 
-  Multiple-choice   Supported      [Supported up to six (as hero                                                                                             [Supported up to                                                                            [Partially Supported](https://learn.microsoft.com/dynamics365/customer-service/asynchronous-channels#suggested-actions-support)
-  options                          card)](https://learn.microsoft.com/microsoftteams/platform/concepts/cards/cards-reference#hero-card)                      13](https://developers.facebook.com/docs/messenger-platform/send-messages/quick-replies/)   
+[1]: https://learn.microsoft.com/microsoftteams/platform/concepts/cards/cards-reference#hero-card
+[2]: https://learn.microsoft.com/microsoftteams/platform/bots/how-to/format-your-bot-messages#text-only-messages
+[3]: https://developers.facebook.com/docs/messenger-platform/send-messages/quick-replies/
+[4]: https://www.facebook.com/help/147348452522644?helpref=related
+[5]: https://learn.microsoft.com/dynamics365/customer-service/asynchronous-channels#suggested-actions-support
+[6]: https://learn.microsoft.com/dynamics365/customer-service/asynchronous-channels#preview-support-for-formatted-messages
+[7]: https://learn.microsoft.com/dynamics365/customer-service/set-up-chat-widget
+[8]: https://learn.microsoft.com/dynamics365/customer-service/configure-microsoft-teams
+[9]: https://learn.microsoft.com/dynamics365/customer-service/configure-sms-channel
+[10]: https://learn.microsoft.com/dynamics365/customer-service/configure-sms-channel-twilio
+[11]: https://learn.microsoft.com/dynamics365/customer-service/configure-whatsapp-channel
+[12]: https://learn.microsoft.com/dynamics365/customer-service/configure-wechat-channel
+[13]: https://learn.microsoft.com/dynamics365/customer-service/configure-twitter-channel
 
-  Markdown          Supported      [Partially                                                                                                                [Partially supported](https://www.facebook.com/help/147348452522644?helpref=related)        [Partially
-                                   Supported](https://learn.microsoft.com/microsoftteams/platform/bots/how-to/format-your-bot-messages#text-only-messages)                                                                                               Supported](https://learn.microsoft.com/dynamics365/customer-service/asynchronous-channels#preview-support-for-formatted-messages)
-
-  Welcome message   Supported      Supported                                                                                                                 Not supported                                                                               Supported for [Chat](https://learn.microsoft.com/dynamics365/customer-service/set-up-chat-widget). Not supported for other
-                                                                                                                                                                                                                                                         channels.
-
-  Did-You-Mean      Supported      Supported                                                                                                                 Supported                                                                                   Supported for [Microsoft Teams](https://learn.microsoft.com/dynamics365/customer-service/configure-microsoft-teams),
-                                                                                                                                                                                                                                                         [Chat](https://learn.microsoft.com/dynamics365/customer-service/set-up-chat-widget), Facebook, and text-only channels (short
-                                                                                                                                                                                                                                                         message service (SMS) via [TeleSign](https://learn.microsoft.com/dynamics365/customer-service/configure-sms-channel) and
-                                                                                                                                                                                                                                                         [Twilio](https://learn.microsoft.com/dynamics365/customer-service/configure-sms-channel-twilio),
-                                                                                                                                                                                                                                                         [WhatsApp](https://learn.microsoft.com/dynamics365/customer-service/configure-whatsapp-channel),
-                                                                                                                                                                                                                                                         [WeChat](https://learn.microsoft.com/dynamics365/customer-service/configure-wechat-channel), and
-                                                                                                                                                                                                                                                         [Twitter](https://learn.microsoft.com/dynamics365/customer-service/configure-twitter-channel)). Suggested actions are presented as
-                                                                                                                                                                                                                                                         a text-only list; users must retype an option to respond.
-  ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
-> \[!NOTE\] 채널별로 다른 로직을 사용할 수 있는 예시가 있습니다. Power
-> Platform Snippets 저장소에서 예제를 확인할 수 있습니다:
+> [!NOTE]
+> 채널별로 다른 로직을 사용할 수 있는 예시가 있습니다. Power Platform Snippets 저장소에서 예제를 확인할 수 있습니다:
 >
-> Henry Jammes가 Microsoft Teams 채널일 때 다른 adaptive card를 표시하는
-> 방법을 공유했습니다. ([Link to
-> example](https://github.com/pnp/powerplatform-snippets/blob/main/copilot-studio/multiple-topics-matched-topic/source/multiple-topics-matched.yaml#L40))
+> Henry Jammes가 Microsoft Teams 채널일 때 다른 adaptive card를 표시하는 방법을 공유했습니다. ([Link to example](https://github.com/pnp/powerplatform-snippets/blob/main/copilot-studio/multiple-topics-matched-topic/source/multiple-topics-matched.yaml#L40))
 
 ## 🧪 Lab 11: Teams 및 Microsoft 365 Copilot에 에이전트 게시하기
 
@@ -302,7 +294,5 @@ mission](../12-understanding-licensing/index.md)
 🔗 [Publish channels
 documentation](https://learn.microsoft.com/microsoft-copilot-studio/publication-fundamentals-publish-channels)
 
-```{=html}
 <!-- markdownlint-disable-next-line MD033 -->
-```
-`<img src="https://m365-visitor-stats.azurewebsites.net/agent-academy/recruit/11-publish-your-agent" alt="Analytics" />`{=html}
+<img src="https://m365-visitor-stats.azurewebsites.net/agent-academy/recruit/11-publish-your-agent" alt="Analytics" />

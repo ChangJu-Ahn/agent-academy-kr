@@ -1,8 +1,21 @@
+---
+prev:
+  text: 'Course Setup'
+  link: '/recruit/00-course-setup'
+next:
+  text: 'Copilot Studio Fundamentals'
+  link: '/recruit/02-copilot-studio-fundamentals'
+---
+
 # 🚨 Mission 01: 에이전트 소개
 
 ## 🕵️‍♂️ CODENAME: `OPERATION AI AGENT DECODE`
 
 > **⏱️ Operation Time Window:** `~30분 – 개념 이해 중심, 실습 없음`
+
+🎥 **워크스루 영상 보기**
+
+[![Introduction to Agents video thumbnail](./images/video-thumbnail.jpg)](https://www.youtube.com/watch?v=BhPz_zicUnM "Watch the walkthrough on YouTube")
 
 ## 🎯 Mission Brief
 
@@ -106,3 +119,6 @@ Copilot Studio에서 **에이전트**라는 용어는 여러 유형의 AI 도우
 ## 📚 Tactical Resources
 
 🔗 [Copilot Studio Documentation Home](https://learn.microsoft.com/microsoft-copilot-studio/)
+
+<!-- markdownlint-disable-next-line MD033 -->
+<img src="https://m365-visitor-stats.azurewebsites.net/agent-academy/recruit/01-introduction-to-agents" alt="Analytics" />

@@ -60,8 +60,9 @@ thumbnail](./assets/video-thumbnail.jpg)](https://www.youtube.com/watch?v=ZgwHL8
 -   Planner에서 작업 완료
 -   Microsoft Form에 새 응답 제출
 -   Microsoft Teams에 새 메시지 추가
--   반복 일정 기반 실행 (예: 매일 알림)\
-    ![Add Trigger](./assets/10_AddTriggerDialog.png)
+-   반복 일정 기반 실행 (예: 매일 알림)
+
+![Add Trigger](./assets/10_AddTriggerDialog.png)
 
 ### 자율 에이전트에서 이벤트 트리거가 중요한 이유
 
@@ -101,13 +102,13 @@ thumbnail](./assets/video-thumbnail.jpg)](https://www.youtube.com/watch?v=ZgwHL8
 
 두 트리거 유형의 차이를 이해하는 것은 매우 중요합니다:
 
-  **Event Triggers**            **Topic Triggers**
-  ----------------------------- -----------------------------
-  외부 시스템 이벤트로 활성화   사용자 입력/문장으로 활성화
-  자율 에이전트 동작 가능       대화형 응답 제공
-  제작자 인증 사용              사용자 인증 옵션
-  사용자 상호작용 없이 실행     사용자가 대화를 시작해야 함
-  예: 파일 생성, 이메일 수신    예: "오늘 날씨 어때?"
+| **Event Triggers** | **Topic Triggers** |
+| :-- | :-- |
+| 외부 시스템 이벤트로 활성화 | 사용자 입력/문장으로 활성화 |
+| 자율 에이전트 동작 가능 | 대화형 응답 제공 |
+| 제작자 인증 사용 | 사용자 인증 옵션 |
+| 사용자 상호작용 없이 실행 | 사용자가 대화를 시작해야 함 |
+| 예: 파일 생성, 이메일 수신 | 예: "오늘 날씨 어때?" |
 
 ## 📦 Understanding trigger payloads
 
@@ -142,7 +143,7 @@ thumbnail](./assets/video-thumbnail.jpg)](https://www.youtube.com/watch?v=ZgwHL8
 
 **Payload Instructions** (Trigger-specific)
 
--   특정 트리거에 대한 상세 지침\
+-   특정 트리거에 대한 상세 지침
 -   예: "이 SharePoint 업데이트는 프로젝트 채널에 요약 전송"
 -   복잡한 다중 트리거 에이전트에 적합
 
@@ -254,17 +255,17 @@ IT Help Desk 에이전트를 자동 응답하도록 확장합니다. SharePoint 
 
     -   **Settings** 선택
     -   **Orchestration** 섹션에서 **Use generative AI orchestration for
-        your agent's responses?** 를 **Yes**로 설정\
+        your agent's responses?** 를 **Yes**로 설정
         ![Enable Generative AI](./assets/10_EnableGenerativeAI.png)
 
 3.  필요 시 **Save** 선택
 
 4.  **Overview** 탭 → **Triggers** 섹션 이동
 
-5.  **+ Add trigger** 클릭\
+5.  **+ Add trigger** 클릭
     ![Navigate to Triggers](./assets/10_NavigateToTrigger.png)
 
-6.  **When an item is created (SharePoint)** 선택\
+6.  **When an item is created (SharePoint)** 선택
     ![Select SharePoint
     Trigger](./assets/10_SelectSharePointTrigger.png)
 
@@ -272,7 +273,7 @@ IT Help Desk 에이전트를 자동 응답하도록 확장합니다. SharePoint 
 
     -   **Trigger name:** New Support Ticket Created in SharePoint
 
-8.  연결 구성 후 **Next** 선택\
+8.  연결 구성 후 **Next** 선택
     ![Configure trigger name and
     connections](./assets/10_ConfigureTriggerNameAndConnections.png)
 
@@ -305,7 +306,7 @@ IT Help Desk 에이전트를 자동 응답하도록 확장합니다. SharePoint 
 1.  **Overview → Triggers**에서 **New Support Ticket Created in
     SharePoint**의 **...** 선택
 
-2.  **Edit in Power Automate** 선택\
+2.  **Edit in Power Automate** 선택
     ![Edit trigger in Power
     Automate](./assets/10_EditTriggerInPowerAutomate.png)
 
@@ -314,7 +315,7 @@ IT Help Desk 에이전트를 자동 응답하도록 확장합니다. SharePoint 
 4.  **Sends a prompt to the specified copilot for processing** 노드 선택
 
 5.  **Body/message**에서 기존 Body 삭제 후 `/` 입력 → **Insert
-    Expression** 선택\
+    Expression** 선택
     ![Insert expression for
     trigger](./assets/10_InsertExpressionForTrigger.png)
 
@@ -324,7 +325,7 @@ IT Help Desk 에이전트를 자동 응답하도록 확장합니다. SharePoint 
     concat('Submitted By Name: ', first(triggerOutputs()?['body/value'])?['Author/DisplayName'], '\nSubmitted By Email: ', first(triggerOutputs()?['body/value'])?['Author/Email'], '\nTitle: ', first(triggerOutputs()?['body/value'])?['Title'], '\nIssue Description: ', first(triggerOutputs()?['body/value'])?['Description'], '\nPriority: ', first(triggerOutputs()?['body/value'])?['Priority/Value'],'\nTicket ID : ', first(triggerOutputs()?['body/value'])?['ID'])
     ```
 
-7.  **Add** 선택\
+7.  **Add** 선택
     ![Trigger output
     expression](./assets/10_TriggerOutputExpression.png)
 
@@ -338,7 +339,7 @@ IT Help Desk 에이전트를 자동 응답하도록 확장합니다. SharePoint 
 
 3.  **+ Add a tool → Connector** 선택
 
-4.  **Send an email (V2) - Office 365 Output** 선택\
+4.  **Send an email (V2) - Office 365 Output** 선택
     ![Select Outlook Connector](./assets/10_SelectOutlookConnector.png)
 
 5.  연결 구성 후 **Add and configure**
@@ -376,19 +377,19 @@ IT Help Desk 에이전트를 자동 응답하도록 확장합니다. SharePoint 
     -   **Description**: "Unable to connect to corporate WIFI network
         after recent update"
     -   **Priority**: "Normal"
-5.  SharePoint 항목 **Save**\
+5.  SharePoint 항목 **Save**
     ![Create Test Ticket](./assets/10_CreateTestTicket.png)
 6.  Copilot Studio로 돌아와 **Test your trigger** 패널 확인 (Refresh
-    사용)\
+    사용)
     ![Monitor Trigger Test](./assets/10_MonitorTriggerTest.png)
 7.  트리거 표시 후 **Start testing**
-8.  Activity Map 표시되면 **Allow** 선택\
+8.  Activity Map 표시되면 **Allow** 선택
     ![Allow Connector](./assets/10_AllowConnector.png)
 9.  에이전트 확인:
     -   트리거 페이로드 수신 여부
-    -   "Acknowledge SharePoint ticket" tool 호출 여부\
+    -   "Acknowledge SharePoint ticket" tool 호출 여부
         ![Test trigger](./assets/10_TestTrigger.png)
-10. 제출자 이메일에서 확인 메일 수신 여부 확인\
+10. 제출자 이메일에서 확인 메일 수신 여부 확인
     ![Test email sent](./assets/10_TestEmailSent.png)
 11. Copilot Studio의 **Activity** 탭에서 전체 실행 로그 확인
 
@@ -419,7 +420,5 @@ lesson](../11-publish-your-agent/index.md)
 -   **Security**: [Data loss prevention for Copilot
     Studio](https://learn.microsoft.com/microsoft-copilot-studio/admin-data-loss-prevention?WT.mc_id=power-177340-scottdurow)
 
-```{=html}
 <!-- markdownlint-disable-next-line MD033 -->
-```
-`<img src="https://m365-visitor-stats.azurewebsites.net/agent-academy/recruit/10-add-event-triggers" alt="Analytics" />`{=html}
+<img src="https://m365-visitor-stats.azurewebsites.net/agent-academy/recruit/10-add-event-triggers" alt="Analytics" />
