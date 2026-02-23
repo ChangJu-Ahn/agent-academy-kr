@@ -1,10 +1,3 @@
----
-next:
-  text: 'Course Setup'
-  link: '/recruit/00-course-setup'
-lastUpdated: false
----
-
 # Welcome Recruit
 
 ![Copilot Studio Agent Academy Recruit](../images/mcs-agent-academy-recruit-banner.png)

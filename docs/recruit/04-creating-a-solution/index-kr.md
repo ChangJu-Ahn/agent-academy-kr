@@ -1,21 +1,8 @@
----
-prev:
-  text: 'Deploy a Declarative Agent for Microsoft 365 Copilot'
-  link: '/recruit/03-create-a-declarative-agent-for-M365Copilot'
-next:
-  text: 'Using a Pre-Built Agent'
-  link: '/recruit/05-using-prebuilt-agents'
----
-
 # 🚨 Mission 04: 에이전트를 위한 솔루션 생성하기
 
 ## 🕵️‍♂️ CODENAME: `OPERATION CTRL-ALT-PACKAGE`
 
 > **⏱️ Operation Time Window:** `~45 minutes`
-
-🎥 **워크스루 영상 보기**
-
-[![Create a solution video thumbnail](./assets/video-thumbnail.jpg)](https://www.youtube.com/watch?v=1iATbkgfcpU "Watch the walkthrough on YouTube")
 
 ## 🎯 Mission Brief
 

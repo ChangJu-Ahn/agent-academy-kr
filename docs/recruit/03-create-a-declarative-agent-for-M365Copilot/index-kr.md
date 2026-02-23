@@ -1,21 +1,8 @@
----
-prev:
-  text: 'Copilot Studio Fundamentals'
-  link: '/recruit/02-copilot-studio-fundamentals'
-next:
-  text: 'Creating a Solution for Your Agent'
-  link: '/recruit/04-creating-a-solution'
----
-
 # 🚨 Mission 03: Microsoft 365 Copilot용 선언형 에이전트 배포
 
 ## 🕵️‍♂️ CODENAME: `OPERATION COPILOT EXTENSION`
 
 > **⏱️ Operation Time Window:** `~60 minutes`
-
-🎥 **워크스루 영상 보기**
-
-[![Create a Declarative Agent video thumbnail](./assets/video-thumbnail.jpg)](https://www.youtube.com/watch?v=BVNUmLXFCq8 "Watch the walkthrough on YouTube")
 
 ## 🎯 Mission Brief
 

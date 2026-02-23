@@ -202,7 +202,7 @@ Under the hood, the orchestrator uses a **generative planning** approach: it dec
    > "Your current PTO balance is 12 days."  
 -->
 
-``` mermaid
+```mermaid
 sequenceDiagram
     participant User
     participant AI

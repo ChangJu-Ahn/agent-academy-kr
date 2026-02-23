@@ -1,21 +1,8 @@
----
-prev:
-  text: 'Introduction to Agents'
-  link: '/recruit/01-introduction-to-agents'
-next:
-  text: 'Deploy a Declarative Agent for Microsoft 365 Copilot'
-  link: '/recruit/03-create-a-declarative-agent-for-M365Copilot'
----
-
 # 🚨 Mission 02: Copilot Studio 기초
 
 ## 🕵️‍♂️ CODENAME: `OPERATION CORE PROTOCOL`
 
 > **⏱️ Operation Time Window:** `~30분 – 정보 학습 중심, 실습 없음`  
-
-🎥 **워크스루 영상 보기**
-
-[![Copilot Studio fundamentals video thumbnail](./assets/video-thumbnail.jpg)](https://www.youtube.com/watch?v=x4OCwDRGeLE "Watch the walkthrough on YouTube")
 
 ## 🎯 Mission Brief
 
@@ -199,7 +186,7 @@ Microsoft 365 Copilot은 Office 앱 전반에서 일반적인 AI 지원을 제�
    > "당신의 현재 유급 휴가는 12일입니다."  
 -->
 
-``` mermaid
+```mermaid
 sequenceDiagram
     participant User
     participant AI

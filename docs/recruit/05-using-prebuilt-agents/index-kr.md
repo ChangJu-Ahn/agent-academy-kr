@@ -1,21 +1,8 @@
----
-prev:
-  text: 'Creating a Solution for Your Agent'
-  link: '/recruit/04-creating-a-solution'
-next:
-  text: 'Create a custom agent using natural language with AI'
-  link: '/recruit/06-create-agent-from-conversation'
----
-
 # 🧰 Mission 05: Using a Pre-Built Agent
 
 ## 🕵️‍♂️ CODENAME: `OPERATION SAFE TRAVELS`
 
 > **⏱️ Operation Time Window:** `~30 minutes`
-
-🎥 **워크스루 영상 보기**
-
-[![Pre-built agent video thumbnail](./images/video-thumbnail.jpg)](https://www.youtube.com/watch?v=NmXsx8WjWuM "Watch the walkthrough on YouTube")
 
 ## 🎯 Mission Brief
 
@@ -123,7 +110,9 @@ Pre-built agents는 Microsoft에서 제공하는 turnkey AI agents로 다음을 
 
     ![Add to Agent](./images/publish-1.png)
 
-5.  대화 상자에서 다시 **Publish** 선택 ![Add to Agent](./images/publish-2.png)
+5.  대화 상자에서 다시 **Publish** 선택 
+
+    ![Add to Agent](./images/publish-2.png)
 
 6.  필요 시 **Channels** 기능을 사용하여 Microsoft Teams에 agent 추가 가능
 

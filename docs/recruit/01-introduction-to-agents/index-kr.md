@@ -1,21 +1,9 @@
----
-prev:
-  text: 'Course Setup'
-  link: '/recruit/00-course-setup'
-next:
-  text: 'Copilot Studio Fundamentals'
-  link: '/recruit/02-copilot-studio-fundamentals'
----
-
 # 🚨 Mission 01: 에이전트 소개
 
 ## 🕵️‍♂️ CODENAME: `OPERATION AI AGENT DECODE`
 
 > **⏱️ Operation Time Window:** `~30분 – 개념 이해 중심, 실습 없음`
 
-🎥 **워크스루 영상 보기**
-
-[![Introduction to Agents video thumbnail](./images/video-thumbnail.jpg)](https://www.youtube.com/watch?v=BhPz_zicUnM "Watch the walkthrough on YouTube")
 
 ## 🎯 Mission Brief
 
@@ -46,8 +34,9 @@ next:
 3.  **Context Window:** 각 LLM은 한 번에 처리할 수 있는 토큰 수 제한이 있으며, 이를 초과하면 이전 내용은 요약되거나 잘립니다.
 4.  **Prompting:** 사용자는 프롬프트(질문이나 요청 텍스트)를 보내 LLM과 상호작용합니다. 프롬프트가 명확할수록 더 정확하고 관련성 높은 응답을 얻을 수 있습니다.
 
-> [!TIP]
-> LLM은 흔히 "초고성능 자동완성"에 비유됩니다. 인간처럼 의미를 완전히 이해하는 것은 아니지만, 다음에 올 가장 적절한 단어나 문장을 매우 잘 예측합니다.
+
+> [!TIP] LLM은 흔히 "초고성능 자동완성"에 비유됩니다. 인간처럼 의미를 완전히 이해하는 것은 아니지만, 다음에 올 가장 적절한 단어나 문장을 매우 잘 예측합니다.
+
 
 ## Retrieval-Augmented Generation (RAG)
 
@@ -84,8 +73,7 @@ Copilot Studio에서 **에이전트**라는 용어는 여러 유형의 AI 도우
         -   여행 요청이 입력되면 일정 생성, 항공권 예약, 이메일 발송까지 수행하는 에이전트
         -   Teams 회의에 참여해 실시간 전사 후 OneNote에 요약을 작성하는 회의 요약 에이전트
 
-> [!IMPORTANT]    
-> Key Difference
+> [!NOTE] Key Difference
 > 대화형 에이전트는 사용자 입력이 있어야 동작합니다. 자율형 에이전트는 외부 트리거를 기반으로 사람의 개입 없이도 작업을 수행할 수 있습니다.
 
 ## Agents in Copilot Studio

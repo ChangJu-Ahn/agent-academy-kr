@@ -1,21 +1,8 @@
----
-prev:
-  text: '사전 빌드된 에이전트 사용하기'
-  link: '/recruit/05-using-prebuilt-agents'
-next:
-  text: '트리거와 노드를 사용하여 새 토픽 추가'
-  link: '/recruit/07-add-new-topic-with-trigger'
----
-
 # 🚨 Mission 06: 자연어와 AI를 사용하여 커스텀 에이전트 생성 및 데이터로 그라운딩하기
 
 ## 🕵️‍♂️ CODENAME: `OPERATION AGENT FORGE`
 
 > **⏱️ Operation Time Window:** `~75 minutes`
-
-🎥 **워크스루 영상 보기**
-
-[![Create custom agent video thumbnail](./assets/video-thumbnail.jpg)](https://www.youtube.com/watch?v=qZTtQVncGFg "Watch the walkthrough on YouTube")
 
 ## 🎯 Mission Brief
 
