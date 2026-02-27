@@ -333,9 +333,8 @@ IT Help Desk 에이전트를 자동 응답하도록 확장합니다. SharePoint 
     클릭
 3.  새 브라우저 탭에서 **SharePoint IT Support Tickets list** 이동
 4.  **+ Add new item** 클릭:
-    -   **Title**: "Unable to connect to VPN"
-    -   **Description**: "Unable to connect to corporate WIFI network
-        after recent update"
+    -   **Title**: "VPN 접속 불가"
+    -   **Description**: "최근 업데이트 후 회사 WIFI 네트워크에 접속할 수 없습니다."
     -   **Priority**: "Normal"
 5.  SharePoint 항목 **Save**
     ![Create Test Ticket](./assets/10_CreateTestTicket.png)
