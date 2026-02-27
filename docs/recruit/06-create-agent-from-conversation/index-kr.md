@@ -533,7 +533,7 @@ Let's begin!
 
 이것으로 **Lab 06 - AI로 에이전트 만들기**가 끝났습니다. 아래 링크를 선택하여 다음 레슨으로 이동하세요. 이 랩에서 만든 커스텀 에이전트는 다음 레슨의 랩에서 사용됩니다.
 
-⏭️ [Move to **Add a new Topic with trigger** lesson](../07-add-new-topic-with-trigger/index.md)
+⏭️ [Move to **Add a new Topic with trigger** lesson](../07-add-new-topic-with-trigger/index-kr.md)
 
 이제 여러분은 데이터와 대화하는 디지털 에이전트를 만들 수 있습니다. 다음 미션으로 계속 진행하세요.
 
