@@ -216,7 +216,7 @@ sequenceDiagram
 
 이제 기본적인 질문 응답과 간단한 워크플로우를 수행하는 에이전트를 만들 수 있습니다. 다음 단계에서는 "Service Desk" 에이전트를 직접 만들어 보게 됩니다.
 
-Up next: You'll build your [first declarative agent for M365 Copilot](../03-create-a-declarative-agent-for-M365Copilot/index.md).
+Up next: You'll build your [first declarative agent for M365 Copilot](../03-create-a-declarative-agent-for-M365Copilot/index-kr.md).
 
 <!-- markdownlint-disable-next-line MD033 -->
 <img src="https://m365-visitor-stats.azurewebsites.net/agent-academy/recruit/02-copilot-studio-fundamentals" alt="Analytics" />
