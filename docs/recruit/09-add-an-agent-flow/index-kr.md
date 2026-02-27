@@ -754,7 +754,7 @@ Copilot Studio에서 에이전트 플로우를 만들 때의 모범 사례입니
     **Description**에는 아래를 복사해 붙여넣습니다.
 
     ```text
-    This flow starts when an agent manually triggers it and provides device and user details. It retrieves device information from a SharePoint list using the provided device ID. After successfully getting the device details, it sends an email to a manager with the request information, and sends a value back to the agent.
+    이 워크플로는 상담원이 수동으로 트리거하여 장치 및 사용자 세부 정보를 제공할 때 시작됩니다. 제공된 장치 ID를 사용하여 SharePoint 목록에서 장치 정보를 검색합니다. 장치 세부 정보를 성공적으로 가져오면 요청 정보를 관리자에게 이메일로 보내고, 상담원에게 값을 반환합니다.
     ```
 
     **Save**를 선택해 플로우 이름/설명 업데이트를 저장합니다.
