@@ -1,21 +1,8 @@
----
-prev:
-  text: 'Add new topic with trigger and nodes'
-  link: '/recruit/07-add-new-topic-with-trigger'
-next:
-  text: 'Add an agent flow to your Topic for automation'
-  link: '/recruit/09-add-an-agent-flow'
----
-
 # 🚨 Mission 08: Adaptive Cards로 Topics에서 사용자 상호작용 향상
 
 ## 🕵️‍♂️ CODENAME: `OPERATION INTERFACE UPLIFT`
 
 > **⏱️ Operation Time Window:** `~45 minutes`
-
-🎥 **Watch the Walkthrough**
-
-[![Adaptive cards video thumbnail](./assets/video-thumbnail.jpg)](https://www.youtube.com/watch?v=RhIlzYHPCXo "Watch the walkthrough on YouTube")
 
 ## 🎯  Mission Brief
 
