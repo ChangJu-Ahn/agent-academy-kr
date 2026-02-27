@@ -275,7 +275,7 @@ Copilot Studio에서도 동일하게 제한됩니다. 올바른 권한이 있는
 
 정리된 디지털 구조는 엔터프라이즈 규모의 에이전트 운영을 위한 첫 단계입니다.
 
-⏭️ [Move to **Get started quickly with pre-built agents** lesson](../05-using-prebuilt-agents/index.md)
+⏭️ [Move to **Get started quickly with pre-built agents** lesson](../05-using-prebuilt-agents/index-kr.md)
 
 ## 📚 Tactical Resources
 
