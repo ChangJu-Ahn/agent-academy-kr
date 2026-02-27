@@ -613,7 +613,7 @@ Let's begin!
 
 이것으로 **Lab 03 - Build a declarative agent in Microsoft Copilot Studio for Microsoft 365 Copilot** 를 마칩니다. 아래 링크를 눌러 다음 레슨으로 이동하세요.
 
-⏭️ [Move to **Creating a new Solution** lesson](../04-creating-a-solution/index.md)
+⏭️ [Move to **Creating a new Solution** lesson](../04-creating-a-solution/index-kr.md)
 
 다음 시간까지, 집중력을 유지하세요. 미래의 기업 업무는 에이전트를 통해 이루어질 것이며, 이제 여러분은 에이전트를 구축하는 방법을 알게 되었습니다.
 
