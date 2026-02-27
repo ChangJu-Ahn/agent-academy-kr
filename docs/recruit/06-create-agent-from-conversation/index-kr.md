@@ -416,7 +416,7 @@ Let's begin!
 1. **Testing** 패널에 다음 질문을 입력합니다.
 
     ```text
-    How can I check the warranty status of my Surface?
+    내 Surface의 보증 상태는 어떻게 확인할 수 있나요?
     ```
 
     ![Test newly created agent](./assets/6.1_16_EnterQuestion.png)
