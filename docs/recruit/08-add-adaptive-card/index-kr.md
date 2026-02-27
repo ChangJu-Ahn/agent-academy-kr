@@ -368,7 +368,7 @@ Let's begin!
 1. 테스트 진행
 
     ```text
-    I need a laptop
+    랩탑이 필요함
     ```
 
     ![Test agent](assets/8.2_05_TestAgent.png)
@@ -376,7 +376,7 @@ Let's begin!
 1. 다음 입력:
 
     ```text
-    yes please
+    네
     ```
 
     ![Test Request device](assets/8.2_06_TestRequestDeviceTopic.png)
