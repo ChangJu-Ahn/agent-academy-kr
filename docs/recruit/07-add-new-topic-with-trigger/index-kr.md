@@ -1,21 +1,8 @@
----
-prev:
-  text: '자연어와 AI를 사용하여 사용자 지정 에이전트 만들기'
-  link: '/recruit/06-create-agent-from-conversation'
-next:
-  text: 'Adaptive Cards로 Topics에서 사용자 상호작용 향상'
-  link: '/recruit/08-add-adaptive-card'
----
-
 # 🚨 미션 07: 트리거와 노드를 사용하여 새 토픽 추가
 
 ## 🕵️‍♂️ 코드네임: `OPERATION STAY ON TOPIC`
 
 > **⏱️ 작업 시간:** `~60분`
-
-🎥 **워크스루 영상 보기**
-
-[![Trigger video thumbnail](./assets/video-thumbnail.jpg)](https://www.youtube.com/watch?v=7iPAZaA8nJs "Watch the walkthrough on YouTube")
 
 ## 🎯 미션 브리프
 
