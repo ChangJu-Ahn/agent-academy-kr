@@ -294,41 +294,50 @@ Let's begin!
 
     ![Clear card payload editor](assets/8.1_09_SelectAll.png)
 
-1. 카드 미리보기 확인 후 **Save → Close**
+1. 카드 미리보기에 텍스트와 사용 가능한 장치 목록이 표시되는 요소가 포함된 것을 확인하세요.
+이 JSON은 현재 카드의 기본 요소로 사용할 내용을 미리 보여주는 자리 표시자입니다. 하지만 SharePoint 커넥터의 '항목 가져오기' 작업 응답을 저장하는 전역 변수 `Global.VarDevices.value`를 참조할 것이므로 JSON 형식이 아닌 수식 형식으로 표시됩니다.
+저장을 선택하고 닫기를 선택하여 적응형 카드 디자이너 모달을 종료합니다.
 
     ![Select Save](assets/8.1_10_DeviceRequestCard.png)
 
-1. Adaptive Card Node properties 닫기
+1. X 아이콘을 선택하여 Adaptive Card Node 속성 패널을 닫습니다.
 
     ![Close Adaptive Card Node properties panel](assets/8.1_11_ExitAdaptiveCardNodeProperties.png)
 
-1. authoring canvas에서 adaptive card 확인
+1. 해당 주제의 작성 캔버스에서 적응형 카드를 볼 수 있습니다.
 
     ![Device request adaptive card](assets/8.1_12_DeviceRequestCard.png)
 
-1. output variables 확인
+1. 노드의 맨 아래로 스크롤하면 출력 변수를 볼 수 있습니다. commentsId와 deviceSelectionId는 요소 속성에 정의되어 있습니다. 이 두 변수에는 사용자가 상호 작용하는 카드 요소의 값이 저장됩니다. 이 값들은 다음 강의 실습에서 살펴볼 토픽의 하위 단계에서 사용됩니다.
 
     ![Node variable outputs](assets/8.1_13_DeviceRequestCardOutputs.png)
 
-1. JSON → Formula 변경
+1. 다음으로, SharePoint 커넥터 작업에서 반환된 항목들을 반복 처리하기 위해 Power FX를 다시 사용하여 JSON 응답의 value 속성을 통해 전역 변수 Global.VarDevices.value에 저장된 항목들을 JSON 형식에서 수식으로 변환해 보겠습니다.
+
+   > [!NOTE]
+    > We created this global variable in Lab 07
+
+3. '적응형 카드로 질문하기' 노드에서 카드를 선택한 다음, 화살표 아이콘을 선택하고 '수식'을 선택합니다.
 
     ![Change to formula](assets/8.1_14_ChangeToFormula.png)
 
-1. expand 아이콘 선택
+1. 수식 입력란을 확대하려면 확장 아이콘을 클릭하세요.
 
     ![Click on expand icon](assets/8.1_15_SelectExpand.png)
 
-1. payload editor 전체 삭제
+1. 카드 페이로드 편집기를 클릭하고 Windows 단축키 Ctrl + A 또는 Mac 단축키 Command + A를 사용하여 모든 줄을 선택한 다음 해당 줄을 삭제합니다.
 
     ![Click into payload card editor](assets/8.1_16_SelectAll.png)
 
-    Formula 붙여넣기
+    [요청 장치 formular file](https://raw.githubusercontent.com/microsoft/agent-academy/main/docs/recruit/08-add-adaptive-card/assets/8.1_RequestDeviceFormula.txt)에서 수식을 붙여넣으세요.
 
-1. Power Fx 설명 후 카드 모달 닫기
+1. 이 수식에서는 For All 함수를 사용하여 각 SharePoint 목록 항목을 반복하고, 선택 옵션 제목에 Model 값을 표시합니다. 이때 SharePoint 항목 ID가 값으로 참조됩니다. 또한, 수식은 항목 작성 캔버스에 적응형 카드를 표시하기 위해 값이 필요하므로 If(IsBlank()) 함수로 값을 감싸줍니다. 값이 비어 있으면 "속성이 null일 수 없습니다."라는 메시지가 표시됩니다.
+
+카드 모달을 닫습니다.
 
     ![Power Fx Formula](assets/8.1_17_PowerFxFormula.png)
 
-1. Adaptive Card Node properties 닫기
+1. Adaptive Card Node 속성 창을 닫습니다.
 
 1. 토픽 저장
 
