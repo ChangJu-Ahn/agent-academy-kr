@@ -535,7 +535,7 @@ Power Automate 클라우드 플로우가 실행되어 휴가 관리 시스템에
     **Variable description** - 다음을 복사하여 붙여넣으세요.
 
     ```text
-    List of available devices by device type
+    기기 유형별 사용 가능한 기기 목록
     ```
 
     ![Output properties](assets/7.2_09_OutputVariable.png)
