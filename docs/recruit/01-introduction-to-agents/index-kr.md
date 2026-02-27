@@ -100,7 +100,7 @@ Copilot Studio에서 **에이전트**라는 용어는 여러 유형의 AI 도우
     -   **Conversational:** 대화 중심
     -   **Autonomous:** 외부 트리거 기반 자율 실행
 
-다음 단계에서는 [Copilot Studio 기초](../02-copilot-studio-fundamentals/index.md)를 살펴봅니다!
+다음 단계에서는 [Copilot Studio 기초](../02-copilot-studio-fundamentals/index-kr.md)를 살펴봅니다!
 
 계속 집중하세요, 이제 AI 여정이 시작됩니다.
 
