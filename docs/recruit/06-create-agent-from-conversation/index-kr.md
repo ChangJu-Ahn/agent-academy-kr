@@ -90,7 +90,7 @@
 >
 > 프롬프트 예시:
 >
-> `I want to build an agent that helps users submit a vacation request. When a user says they want to request time off, the agent should ask for their name, the start date of their vacation, the end date of their vacation, and their manager's name. Once the user provides this information, the agent should save it to a SharePoint list called 'Vacation Requests' and post a notification in a dedicated Microsoft Teams channel.`
+> `**사용자가 휴가 신청을 제출할 수 있도록 도와주는 에이전트를 만들고 싶습니다. 사용자가 휴가 신청을 하면, 에이전트는 사용자의 이름, 휴가 시작일, 휴가 종료일, 그리고 직속 상사의 이름을 입력받아야 합니다. 사용자가 이 정보를 제공하면, 에이전트는 해당 정보를 '휴가 신청'이라는 SharePoint 목록에 저장하고, Microsoft Teams의 특정 채널에 알림을 게시해야 합니다.**`
 >
 > 이 프롬프트가 좋은 이유:
 >
