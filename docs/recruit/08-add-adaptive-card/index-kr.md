@@ -352,7 +352,7 @@ Let's begin!
 1. 새 줄 추가:
 
     ```text
-    2. If the user answers yes to the question of requesting a device, trigger [Request device]. Otherwise if they answer no to the question of requesting a device, trigger [Goodbye].
+    2. 사용자가 기기 요청에 대해 '예'라고 답하면 [기기 요청]을 실행하고, '아니오'라고 답하면 [작별 인사]를 실행합니다.
     ```
 
     ![Request device placeholder](assets/8.2_02_ReplaceRequestDevicePlaceholder.png)
