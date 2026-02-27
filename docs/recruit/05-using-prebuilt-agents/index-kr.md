@@ -127,7 +127,7 @@ Pre-built agents는 Microsoft에서 제공하는 turnkey AI agents로 다음을 
 -   agent 커스터마이즈
 -   Safe Travels agent template 테스트 및 게시
 
-⏭️ [Move to **Creating a custom agent from scratch** lesson](../06-create-agent-from-conversation/index.md).
+⏭️ [Move to **Creating a custom agent from scratch** lesson](../06-create-agent-from-conversation/index-kr.md).
 
 <!-- markdownlint-disable-next-line MD033 -->
 <img src="https://m365-visitor-stats.azurewebsites.net/agent-academy/recruit/05-using-prebuilt-agents" alt="Analytics" />
