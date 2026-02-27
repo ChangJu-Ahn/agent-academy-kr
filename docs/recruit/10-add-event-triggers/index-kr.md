@@ -1,22 +1,8 @@
----
-next:
-  link: /recruit/11-publish-your-agent
-  text: Publish your agent
-prev:
-  link: /recruit/09-add-an-agent-flow
-  text: Add an agent flow to your Topic for automation
----
-
 # 🚨 Mission 10: 이벤트 트리거 추가 - 자율 에이전트 기능 활성화
 
 ## 🕵️‍♂️ CODENAME: `OPERATION GHOST ROUTINE`
 
 > **⏱️ Operation Time Window:** `~45 minutes`
-
-🎥 **워크스루 영상 보기**
-
-[![Event triggers video
-thumbnail](./assets/video-thumbnail.jpg)](https://www.youtube.com/watch?v=ZgwHL8PQ1nY "Watch the walkthrough on YouTube")
 
 ## 🎯 Mission Brief
 
@@ -403,22 +389,17 @@ IT Help Desk 에이전트를 자동 응답하도록 확장합니다. SharePoint 
 agent](../11-publish-your-agent/index.md) 방법을 배웁니다.
 
 ⏭️ [Move to **Publish your agent**
-lesson](../11-publish-your-agent/index.md)
+lesson](../11-publish-your-agent/index-kr.md)
 
 ## 📚 Tactical Resources
 
 이벤트 트리거와 자율 에이전트를 더 깊이 학습하려면:
 
--   **Microsoft Learn**: [Make your agent autonomous in Copilot
-    Studio](https://learn.microsoft.com/training/modules/autonomous-agents-online-workshop/?WT.mc_id=power-177340-scottdurow)
--   **Documentation**: [Add an event
-    trigger](https://learn.microsoft.com/microsoft-copilot-studio/authoring-trigger-event?WT.mc_id=power-177340-scottdurow)
--   **Best Practices**: [Power Automate triggers
-    introduction](https://learn.microsoft.com/power-automate/triggers-introduction?WT.mc_id=power-177340-scottdurow)
--   **Advanced Scenarios**: [Using Power Automate flows with
-    agents](https://learn.microsoft.com/microsoft-copilot-studio/advanced-flow-create?WT.mc_id=power-177340-scottdurow)
--   **Security**: [Data loss prevention for Copilot
-    Studio](https://learn.microsoft.com/microsoft-copilot-studio/admin-data-loss-prevention?WT.mc_id=power-177340-scottdurow)
+-   **Microsoft Learn**: [Make your agent autonomous in Copilot Studio](https://learn.microsoft.com/training/modules/autonomous-agents-online-workshop/?WT.mc_id=power-177340-scottdurow)
+-   **Documentation**: [Add an event trigger](https://learn.microsoft.com/microsoft-copilot-studio/authoring-trigger-event?WT.mc_id=power-177340-scottdurow)
+-   **Best Practices**: [Power Automate triggers introduction](https://learn.microsoft.com/power-automate/triggers-introduction?WT.mc_id=power-177340-scottdurow)
+-   **Advanced Scenarios**: [Using Power Automate flows with agents](https://learn.microsoft.com/microsoft-copilot-studio/advanced-flow-create?WT.mc_id=power-177340-scottdurow)
+-   **Security**: [Data loss prevention for Copilot Studio](https://learn.microsoft.com/microsoft-copilot-studio/admin-data-loss-prevention?WT.mc_id=power-177340-scottdurow)
 
 <!-- markdownlint-disable-next-line MD033 -->
 <img src="https://m365-visitor-stats.azurewebsites.net/agent-academy/recruit/10-add-event-triggers" alt="Analytics" />
