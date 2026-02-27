@@ -253,11 +253,9 @@ IT Help Desk 에이전트를 자동 응답하도록 확장합니다. SharePoint 
         trigger:**
 
         ``` text
-        New Support Ticket Created in SharePoint: {Body}
-
-        Use the 'Acknowledge SharePoint Ticket' tool to generate the email body automatically and respond.
-
-        IMPORTANT: Do not wait for any user input. Work completely autonomously.
+        SharePoint에 새 지원 티켓이 생성되었습니다: {본문}
+        'SharePoint 티켓 승인' 도구를 사용하여 이메일 본문을 자동으로 생성하고 회신하세요.
+        중요: 사용자 입력을 기다리지 마세요. 완전히 자율적으로 작업하세요.
         ```
 
         ![Configure trigger parameters](./assets/10_ConfigureTriggerParams.png)
