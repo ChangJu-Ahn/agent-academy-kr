@@ -735,7 +735,7 @@ Power Automate 클라우드 플로우가 실행되어 휴가 관리 시스템에
 
 이것으로 **Lab 07 - 대화 노드를 사용한 새 토픽 추가**가 끝났습니다. 아래 링크를 선택하여 다음 레슨으로 이동하세요. 다음 레슨의 랩에서 이번 랩의 유스케이스를 확장합니다.
 
-⏭️ [Move to **Enhance user interactions with Adaptive Cards** lesson](../08-add-adaptive-card/index.md)
+⏭️ [Move to **Enhance user interactions with Adaptive Cards** lesson](../08-add-adaptive-card/index-kr.md)
 
 ## 📚 참고 자료
 
