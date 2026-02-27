@@ -519,22 +519,23 @@ Copilot Studio에서 에이전트 플로우를 만들 때의 모범 사례입니
     **Subject** 입력 파라미터에는 아래를 입력합니다.
 
     ```text
-    Request type: new device
+    요청 타입: 신규 디바이스
     ```
 
     **Body** 입력 파라미터에는 아래를 입력합니다.
 
     ```text
-    Hi,
-
-    New device requested from
-
-    Manufacturer:
-    Model:
-    Link to item in SharePoint
-    Additional comments from:
-
-    This is an automated email from Contoso Helpdesk Agent
+    안녕하세요,
+    다음 업체에서 새 장치를 요청했습니다.
+    
+    제조사:
+    
+    모델명:
+    
+    SharePoint의 해당 항목 링크
+    추가 의견:
+    
+    이 이메일은 Contoso 헬프데스크 담당자가 자동으로 발송한 메시지입니다.
     ```
 
     ![액션 이름 변경 및 입력 구성](./assets/9.1_24_RenameAndConfigureParameters.png)
