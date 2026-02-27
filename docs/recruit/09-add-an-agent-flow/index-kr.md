@@ -217,14 +217,16 @@ Expressions로 다음이 가능합니다:
 
 Expressions는 함수(function)를 사용합니다. 전 Microsoft MVP Jerry Weinstock의 함수 설명을 일부 빌려 설명하겠습니다.
 
-!!! quote
-    Functions are built-in logic to transform your data either through simple or complex operations in your expression.
+표현식은 함수를 사용합니다. 전 Microsoft MVP Jerry Weinstock의 함수 설명 일부를 설명하겠습니다.
 
-Functions enable you to build expressions without you needing to write any code.
+!!! 인용문
+함수는 표현식에서 간단하거나 복잡한 연산을 통해 데이터를 변환하는 내장 논리입니다.
 
-The way I like to describe it, is that a function in agent flows is similar to Excel functions. You can perform an operation on data to transform it into a desired output. When building your formula in Excel you select your input value from the cells in a table or a range, and then apply functions to manipulate the data output. An example is using the `COUNT` function to work out the number of cells that contain numbers from a range.
+함수를 사용하면 코드를 작성하지 않고도 표현식을 만들 수 있습니다.
 
-In agent flows, instead of referencing data from cells in a table, you're referencing data outputs from the trigger or actions when building your expressions. Continuing with the previous example, use the function `length` to retrieve the number of items returned from the _Get items_ SharePoint connector action.
+제가 좋아하는 설명 방식은 에이전트 흐름의 함수가 Excel 함수와 유사하다는 것입니다. 데이터에 연산을 수행하여 원하는 출력으로 변환할 수 있습니다. Excel에서 수식을 만들 때는 표 또는 범위의 셀에서 입력 값을 선택한 다음 함수를 적용하여 데이터 출력을 조작합니다. 예를 들어 `COUNT` 함수를 사용하여 범위에서 숫자가 포함된 셀의 수를 계산할 수 있습니다.
+
+에이전트 흐름에서는 표의 셀에서 데이터를 참조하는 대신 표현식을 만들 때 트리거 또는 작업의 데이터 출력을 참조합니다. 이전 예제를 계속해서 `length` 함수를 사용하여 SharePoint 커넥터 작업인 '항목 가져오기'에서 반환된 항목 수를 가져올 수 있습니다.
 
 ### 왜 함수가 중요한가요?
 
