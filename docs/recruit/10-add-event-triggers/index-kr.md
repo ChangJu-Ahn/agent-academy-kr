@@ -6,40 +6,27 @@
 
 ## 🎯 Mission Brief
 
-이제 에이전트를 단순한 대화형 도우미에서 자율적으로 동작하는 운영
-자산으로 발전시킬 시간입니다. 이번 미션의 목표는 호출되지 않아도 동작할
-수 있도록 에이전트를 구성하는 것입니다. 즉, 디지털 환경 전반의 신호를
-감지하고 빠르고 정확하게 대응하도록 만드는 것입니다.
+이제 에이전트를 단순한 대화형 도우미에서 자율적으로 동작하는 운영 자산으로 발전시킬 시간입니다. 이번 미션의 목표는 호출되지 않아도 동작할 수 있도록 에이전트를 구성하는 것입니다. 즉, 디지털 환경 전반의 신호를 감지하고 빠르고 정확하게 대응하도록 만드는 것입니다.
 
-이벤트 트리거를 사용하면 SharePoint, Teams, Outlook과 같은 외부 시스템을
-모니터링하고, 신호가 감지되는 즉시 지능형 작업을 수행하도록 에이전트를
-훈련할 수 있습니다. 이 과정은 에이전트를 조용하지만 민첩하게 항상
-감시하는 완전한 운영 자산으로 변화시킵니다.
+이벤트 트리거를 사용하면 SharePoint, Teams, Outlook과 같은 외부 시스템을 모니터링하고, 신호가 감지되는 즉시 지능형 작업을 수행하도록 에이전트를 훈련할 수 있습니다. 이 과정은 에이전트를 조용하지만 민첩하게 항상 감시하는 완전한 운영 자산으로 변화시킵니다.
 
-성공의 기준은 단순히 요청에 응답하는 것이 아니라, 스스로 가치를
-만들어내는 에이전트를 구축하는 것입니다.
+성공의 기준은 단순히 요청에 응답하는 것이 아니라, 스스로 가치를 만들어내는 에이전트를 구축하는 것입니다.
 
 ## 🔎 Objectives
 
 📖 이번 학습에서는 다음 내용을 다룹니다:
 
--   이벤트 트리거가 무엇이며 자율 에이전트 동작을 어떻게 가능하게 하는지
-    이해하기
--   이벤트 트리거와 토픽 트리거의 차이, 트리거 워크플로우와 페이로드
-    이해하기
+-   이벤트 트리거가 무엇이며 자율 에이전트 동작을 어떻게 가능하게 하는지 이해하기
+-   이벤트 트리거와 토픽 트리거의 차이, 트리거 워크플로우와 페이로드 이해하기
 -   일반적인 이벤트 트리거 시나리오 살펴보기
 -   이벤트 기반 에이전트의 인증, 보안, 게시 시 고려사항 이해하기
--   SharePoint 이벤트에 반응하고 이메일 확인을 보내는 자율 IT Help Desk
-    에이전트 구축하기
+-   SharePoint 이벤트에 반응하고 이메일 확인을 보내는 자율 IT Help Desk 에이전트 구축하기
 
 ## 🤔 What is an Event Trigger?
 
-**Event Trigger**는 외부 이벤트에 반응하여 사용자 입력 없이 에이전트가
-자율적으로 동작하도록 하는 메커니즘입니다. 특정 이벤트를 "감시"하다가
-발생 시 자동으로 행동하도록 만드는 기능이라고 생각하면 됩니다.
+**Event Trigger**는 외부 이벤트에 반응하여 사용자 입력 없이 에이전트가 자율적으로 동작하도록 하는 메커니즘입니다. 특정 이벤트를 "감시"하다가 발생 시 자동으로 행동하도록 만드는 기능이라고 생각하면 됩니다.
 
-토픽 트리거가 사용자의 입력을 필요로 하는 것과 달리, 이벤트 트리거는
-연결된 시스템에서 발생하는 이벤트를 기반으로 활성화됩니다. 예:
+토픽 트리거가 사용자의 입력을 필요로 하는 것과 달리, 이벤트 트리거는 연결된 시스템에서 발생하는 이벤트를 기반으로 활성화됩니다. 예:
 
 -   SharePoint 또는 OneDrive for Business에 새 파일 생성
 -   Dataverse에 레코드 생성
@@ -55,16 +42,12 @@
 이벤트 트리거는 에이전트를 반응형 도우미에서 능동적이고 자율적인 헬퍼로
 변화시킵니다:
 
-1.  **자율 운영** - 사람의 개입 없이 24/7 동작하며 이벤트 발생 즉시
-    대응합니다.
+1.  **자율 운영** - 사람의 개입 없이 24/7 동작하며 이벤트 발생 즉시 대응합니다.
     -   *예:* 새 팀원이 추가되면 자동으로 환영 메시지 전송
-2.  **실시간 반응성** - 사용자의 질문을 기다리지 않고 관련 이벤트에 즉시
-    대응합니다.
+2.  **실시간 반응성** - 사용자의 질문을 기다리지 않고 관련 이벤트에 즉시 대응합니다.
     -   *예:* SharePoint 문서 수정 시 IT 팀에 알림
-3.  **워크플로우 자동화** - 하나의 트리거 이벤트로 여러 작업을
-    연결합니다.
-    -   *예:* 지원 티켓 생성 시 작업 생성, 관리자 알림, 대시보드
-        업데이트
+3.  **워크플로우 자동화** - 하나의 트리거 이벤트로 여러 작업을 연결합니다.
+    -   *예:* 지원 티켓 생성 시 작업 생성, 관리자 알림, 대시보드 업데이트
 4.  **일관된 프로세스** - 중요한 단계가 누락되지 않도록 자동화합니다.
     -   *예:* 신규 직원에게 온보딩 자료 자동 제공
 5.  **데이터 기반 작업** - 트리거 페이로드 정보를 활용해 지능적인
@@ -240,8 +223,7 @@ IT Help Desk 에이전트를 자동 응답하도록 확장합니다. SharePoint 
 2.  먼저 **Generative AI** 활성화 확인:
 
     -   **Settings** 선택
-    -   **Orchestration** 섹션에서 **Use generative AI orchestration for
-        your agent's responses?** 를 **Yes**로 설정
+    -   **Orchestration** 섹션에서 **Use generative AI orchestration for your agent's responses?** 를 **Yes**로 설정
         ![Enable Generative AI](./assets/10_EnableGenerativeAI.png)
 
 3.  필요 시 **Save** 선택
@@ -252,16 +234,14 @@ IT Help Desk 에이전트를 자동 응답하도록 확장합니다. SharePoint 
     ![Navigate to Triggers](./assets/10_NavigateToTrigger.png)
 
 6.  **When an item is created (SharePoint)** 선택
-    ![Select SharePoint
-    Trigger](./assets/10_SelectSharePointTrigger.png)
+    ![Select SharePoint Trigger](./assets/10_SelectSharePointTrigger.png)
 
 7.  트리거 이름과 연결 설정:
 
     -   **Trigger name:** New Support Ticket Created in SharePoint
 
 8.  연결 구성 후 **Next** 선택
-    ![Configure trigger name and
-    connections](./assets/10_ConfigureTriggerNameAndConnections.png)
+    ![Configure trigger name and connections](./assets/10_ConfigureTriggerNameAndConnections.png)
 
 9.  트리거 파라미터 설정:
 
@@ -280,8 +260,7 @@ IT Help Desk 에이전트를 자동 응답하도록 확장합니다. SharePoint 
         IMPORTANT: Do not wait for any user input. Work completely autonomously.
         ```
 
-        ![Configure trigger
-        parameters](./assets/10_ConfigureTriggerParams.png)
+        ![Configure trigger parameters](./assets/10_ConfigureTriggerParams.png)
 
 10. **Create trigger** 선택
 
@@ -292,9 +271,7 @@ IT Help Desk 에이전트를 자동 응답하도록 확장합니다. SharePoint 
 1.  **Overview → Triggers**에서 **New Support Ticket Created in
     SharePoint**의 **...** 선택
 
-2.  **Edit in Power Automate** 선택
-    ![Edit trigger in Power
-    Automate](./assets/10_EditTriggerInPowerAutomate.png)
+2.  **Edit in Power Automate** 선택 ![Edit trigger in Power Automate](./assets/10_EditTriggerInPowerAutomate.png)
 
 3.  **New designer** 활성화
 
@@ -312,10 +289,10 @@ IT Help Desk 에이전트를 자동 응답하도록 확장합니다. SharePoint 
     ```
 
 7.  **Add** 선택
-    ![Trigger output
-    expression](./assets/10_TriggerOutputExpression.png)
+  
+   ![Trigger output expression](./assets/10_TriggerOutputExpression.png)
 
-8.  우측 상단 **Publish** 선택
+10.  우측 상단 **Publish** 선택
 
 ### 10.3 Create a tool for email acknowledgment
 
@@ -347,8 +324,7 @@ IT Help Desk 에이전트를 자동 응답하도록 확장합니다. SharePoint 
 
     -   **Description**: 티켓 접수 확인 및 3영업일 내 응답 예정 안내
 
-    ![Configure Input
-    Parameters](./assets/10_ConfigureInputParameters.png)
+    ![Configure Input Parameters](./assets/10_ConfigureInputParameters.png)
 
 8.  **Save** 선택
 
@@ -381,15 +357,12 @@ IT Help Desk 에이전트를 자동 응답하도록 확장합니다. SharePoint 
 
 ## ✅ Mission Complete
 
-🎉 **축하합니다!** 이벤트 트리거와 커넥터 도구를 성공적으로 구현하여
-사용자 개입 없이 자동으로 이메일을 보내고 지원 티켓을 처리하는 자율
-에이전트를 완성했습니다. 에이전트를 게시하면 자동으로 동작합니다.
+🎉 **축하합니다!** 이벤트 트리거와 커넥터 도구를 성공적으로 구현하여 사용자 개입 없이 자동으로 이메일을 보내고 지원 티켓을 처리하는 자율 에이전트를 완성했습니다. 에이전트를 게시하면 자동으로 동작합니다.
 
 🚀 **다음 단계**: 다음 학습에서는 [publish your
 agent](../11-publish-your-agent/index.md) 방법을 배웁니다.
 
-⏭️ [Move to **Publish your agent**
-lesson](../11-publish-your-agent/index-kr.md)
+⏭️ [Move to **Publish your agent** lesson](../11-publish-your-agent/index-kr.md)
 
 ## 📚 Tactical Resources
 
