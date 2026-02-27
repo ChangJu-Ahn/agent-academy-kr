@@ -335,7 +335,7 @@ Let's begin!
 
 카드 모달을 닫습니다.
 
-    ![Power Fx Formula](assets/8.1_17_PowerFxFormula.png)
+![Power Fx Formula](assets/8.1_17_PowerFxFormula.png)
 
 1. Adaptive Card Node 속성 창을 닫습니다.
 
