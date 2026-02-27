@@ -590,7 +590,7 @@ Power Automate 클라우드 플로우가 실행되어 휴가 관리 시스템에
     `Concatenate` 함수를 사용하여 SharePoint의 **Status** 열이 _Available_이고 **Asset type** 열이 _질문 노드에서 선택된 디바이스_와 같은 항목을 필터링하는 수식을 만듭니다.
 
     ```text
-    Concatenate("Status eq 'Available' and AssetType eq '", Topic.VarDeviceType, "'")
+    Concatenate("Status eq '사용 가능' and AssetType eq '", Topic.VarDeviceType, "'")
     ```
 
     **Insert**를 선택합니다.
