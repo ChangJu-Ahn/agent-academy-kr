@@ -1,21 +1,8 @@
----
-prev:
-  text: 'Adaptive Cards로 Topics에서 사용자 상호작용 향상'
-  link: '/recruit/08-add-adaptive-card'
-next:
-  text: '이벤트 트리거 추가'
-  link: '/recruit/10-add-event-triggers'
----
-
 # 🚨 미션 09: 자동화를 위해 Topic에 에이전트 플로우 추가하기
 
 ## 🕵️‍♂️ 코드네임: `OPERATION AUTOMATION POWERHOUSE`
 
 > **⏱️ 작업 시간:** `~30 minutes`  
-
-🎥 **워크스루 보기**
-
-[![에이전트 플로우 비디오 썸네일](./assets/video-thumbnail.jpg)](https://www.youtube.com/watch?v=vtLZJT3eBXg "Watch the walkthrough on YouTube")
 
 ## 🎯 미션 브리프
 
