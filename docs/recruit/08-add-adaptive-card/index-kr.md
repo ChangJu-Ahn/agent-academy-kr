@@ -254,42 +254,43 @@ Let's begin!
 1. 토픽 이름:
 
     ```text
-    Request device
+    장치 요청
     ```
 
     트리거 설명:
 
     ```text
-    This topic helps users request a device when they answer yes to the question that asks the user if they would like to request one of these devices.
+    이 항목은 사용자가 해당 기기 중 하나를 요청할지 묻는 질문에 '예'라고 답할 경우 기기를 요청할 수 있도록 도와줍니다.
     ```
 
     ![Topic Name and trigger Description](assets/8.1_02_TopicNameAndTriggerDescription.png)
 
-1. **Ask with adaptive card** 노드 추가
+1. 다음으로, 적응형 카드 노드를 추가하세요. 이 노드는 사용자가 요청할 장치를 선택할 수 있도록 대화형 카드를 표시합니다.
 
     ![Select Ask with adaptive card node](assets/8.1_03_AddAskWithAdaptiveCard.png)
 
-1. **Edit adaptive card** 선택
+1. 노드를 선택하면 어댑티브 카드 노드 속성 창이 나타납니다. 이제 JSON을 편집해 보겠습니다. 어댑티브 카드 편집을 선택하세요.
 
     ![Edit adaptive card](assets/8.1_04_EditAdaptiveCard.png)
 
-1. Adaptive Card Designer에서 TextBlock과 FactSet을 추가해보며 구조 변화를 확인
+1. 이곳은 카드를 디자인하고 실시간으로 디자인을 확인할 수 있는 적응형 카드 디자이너입니다.   
+텍스트 블록과 팩트셋 카드 요소를 제작 캔버스(카드 뷰어 영역)로 드래그 앤 드롭해 보세요. 두 카드 요소가 추가됨에 따라 카드 구조와 카드 페이로드 편집기가 어떻게 업데이트되는지 확인할 수 있습니다. 카드 페이로드 편집기와 요소 속성 창을 직접 수정할 수도 있습니다.
 
     ![Drag and drop card elements](assets/8.1_05_DragAndDropCardElements.png)
 
-1. **Preview** 선택
+1. 미리보기를 선택하면 카드를 다양한 너비로 볼 수 있습니다.
 
     ![Select preview](assets/8.1_06_PreviewAdaptiveCard.png)
 
-1. 다양한 폭에서 카드 미리보기 확인
+1. 미리보기가 로드되면 너비별로 다양한 카드 출력 결과를 볼 수 있습니다.
 
     ![Preview card at different widths](assets/8.1_07_PreviewCardWidths.png)
 
-1. Preview 종료 후 Undo
+1. 미리보기에서 x 아이콘을 선택하여 종료한 다음, 디자이너에서 실행 취소를 선택하여 이전에 추가한 두 개의 카드 요소를 제거합니다.
 
     ![Undo](assets/8.1_08_Undo.png)
 
-1. Card payload editor 전체 삭제 후 JSON 붙여넣기
+1. 카드 페이로드 편집기를 클릭하고 Windows 단축키 Ctrl + A 또는 Mac 단축키 Command + A를 사용하여 모든 줄을 선택한 다음 해당 줄을 삭제합니다. [Request devices .JSON file](https://raw.githubusercontent.com/microsoft/agent-academy/refs/heads/main/docs/recruit/08-add-adaptive-card/assets/8.1_RequestDevice.json).에서 JSON을 복사하여 붙여넣습니다.
 
     ![Clear card payload editor](assets/8.1_09_SelectAll.png)
 
