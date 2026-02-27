@@ -393,7 +393,7 @@ Let's begin!
 
 축하합니다! 👏🏻 Power Fx를 사용해 변수 데이터를 표시하는 adaptive card를 추가하고, 토픽 간 리디렉션 방법을 학습했습니다. 작은 단위의 토픽을 구성하면 에이전트 구조가 더 체계적으로 정리되고 사용자 대화 흐름을 더 잘 안내할 수 있습니다.
 
-⏭️ [Move to **Add an agent flow to your Topic for automation** lesson](../09-add-an-agent-flow/index.md)
+⏭️ [Move to **Add an agent flow to your Topic for automation** lesson](../09-add-an-agent-flow/index-kr.md)
 
 ## 📚 Tactical Resources
 
