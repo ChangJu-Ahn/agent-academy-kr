@@ -258,7 +258,7 @@ Mission 07에서 **Devices** 리스트를 사용합니다.
 -   에이전트 grounding을 위한 SharePoint 사이트 생성
 -   이후 미션에서 사용할 Devices 리스트 데이터 입력
 
-이제 [Lesson 01](../01-introduction-to-agents/index.md) 에서 **Recruit 레벨 에이전트 트레이닝**을 시작할 준비가 완료되었습니다.
+이제 [Lesson 01](../01-introduction-to-agents/index-kr.md) 에서 **Recruit 레벨 에이전트 트레이닝**을 시작할 준비가 완료되었습니다.
 
 <!-- markdownlint-disable-next-line MD033 -->
 <img src="https://m365-visitor-stats.azurewebsites.net/agent-academy/recruit/00-course-setup" alt="Analytics" />
