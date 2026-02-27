@@ -1047,7 +1047,7 @@ Copilot Studio에서 에이전트 플로우를 만들 때의 모범 사례입니
 
 이로써 **Lab 09 - 자동화를 위한 에이전트 플로우 추가 및 토픽 기능 강화**가 끝났습니다. 다음 레슨으로 이동하려면 아래 링크를 선택하세요. 다음 레슨의 Lab에서는 이번 Lab의 유스케이스를 확장합니다.
 
-⏭️ [**Add Event Triggers - Enable autonomous agent capabilities** 레슨으로 이동](../10-add-event-triggers/index.md)
+⏭️ [**Add Event Triggers - Enable autonomous agent capabilities** 레슨으로 이동](../10-add-event-triggers/index-kr.md)
 
 ## 📚 참고 자료
 
