@@ -455,7 +455,7 @@ Let's begin!
 
     ![Select upload files](./assets/6.3_01_SelectUploadFile.png)
 
-1. 이 [샘플 파일](https://raw.githubusercontent.com/microsoft/agent-academy/refs/heads/main/docs/recruit/06-create-agent-from-conversation/assets/Contoso_Guest_WiFi_Connection_Guide.docx)을 다운로드하고 파일 탐색기에서 선택합니다. **Open**을 선택합니다.
+1. 이 [샘플 파일](https://raw.githubusercontent.com/microsoft/agent-academy/refs/heads/main/docs/recruit/06-create-agent-from-conversation/assets/Contoso_Guest_WiFi_Connection_Guide-kr.docx)을 다운로드하고 파일 탐색기에서 선택합니다. **Open**을 선택합니다.
 
     ![Select document](./assets/6.3_02_SelectWordFile.png)
 
@@ -482,7 +482,7 @@ Let's begin!
     공개 웹사이트(외부) 지식 소스를 테스트하기 위해 다음 질문을 입력합니다.
 
     ```text
-    How can I find the serial number on my Surface device?
+    내 서피스 기기의 일련번호는 어떻게 찾을 수 있나요?
     ```
 
     ![Select start a new test session icon](./assets/6.4_01_EnterQuestion1.png)
@@ -502,7 +502,7 @@ Let's begin!
 1. 이제 하나의 메시지에서 SharePoint 사이트 지식 소스와 문서 지식 소스를 함께 테스트합니다. 다음 질문을 입력합니다.
 
     ```text
-    How can I access our company's Contoso VPN from my device? How do guests connect to the Contoso Guest wifi?
+    내 기기에서 회사 Contoso VPN에 어떻게 접속할 수 있나요? 게스트는 Contoso 게스트 Wi-Fi에 어떻게 연결하나요?
     ```
 
     ![Test SharePoint and document knowledge sources](./assets/6.4_04_EnterQuestion2Question3.png)
