@@ -455,7 +455,7 @@ Let's begin!
 
     ![Select upload files](./assets/6.3_01_SelectUploadFile.png)
 
-1. 이 [샘플 파일](https://raw.githubusercontent.com/microsoft/agent-academy/refs/heads/main/docs/recruit/06-create-agent-from-conversation/assets/Contoso_Guest_WiFi_Connection_Guide-kr.docx)을 다운로드하고 파일 탐색기에서 선택합니다. **Open**을 선택합니다.
+1. 이 [샘플 파일](https://raw.githubusercontent.com/microsoft/agent-academy/refs/heads/main/docs/recruit/06-create-agent-from-conversation/assets/Contoso_Guest_WiFi_Connection_Guide.docx)을 다운로드하고 파일 탐색기에서 선택합니다. **Open**을 선택합니다.
 
     ![Select document](./assets/6.3_02_SelectWordFile.png)
 
